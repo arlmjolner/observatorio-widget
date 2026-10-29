@@ -14,6 +14,8 @@ completed = json.loads(existing.read_text(encoding="utf-8")) if existing.exists(
 news = json.loads((ROOT / "news.json").read_text(encoding="utf-8"))
 limit = max(0, min(int(config.get("max_transcriptions_per_run", 2)), 4))
 processed = 0
+attempted = 0
+failures = []
 seen = set()
 for section, stories in news.get("categories", {}).items():
     for article in stories:
@@ -30,21 +32,29 @@ for section, stories in news.get("categories", {}).items():
             continue
         if processed >= limit:
             break
+        attempted += 1
         try:
             source = subprocess.run(
                 [sys.executable, str(ROOT / "scripts/find_article_audio.py"), url],
                 check=True, capture_output=True, text=True, timeout=45
-            ).stdout.strip()
+            )
+            if not source.stdout.strip():
+                raise ValueError('Audio extractor returned an empty URL')
+            print(f'Discovered audio for {url}', flush=True)
             subprocess.run(
                 [sys.executable, str(ROOT / "scripts/transcribe_authorized_audio.py"),
-                 "--article-url", url, "--audio-url", source,
+                 "--article-url", url, "--audio-url", source.stdout.strip(),
                  "--title", article.get("title", "Audio article"),
                  "--rights-confirmed"],
                 check=True, timeout=900, cwd=str(ROOT)
             )
             processed += 1
         except (subprocess.CalledProcessError, subprocess.TimeoutExpired, ValueError) as exc:
-            print(f"Skipping {url}: {exc}", file=sys.stderr)
+            detail = (getattr(exc, "stderr", "") or str(exc)).strip()
+            failures.append({"url": url, "error": detail[:600]})
+            print(f"Skipping {url}: {detail}", file=sys.stderr, flush=True)
     if processed >= limit:
         break
-print(f"New authorized transcripts: {processed}")
+report = {"attempted": attempted, "published": processed, "failures": failures[:30]}
+(ROOT / "audio-diagnostics.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
+print(f"Audio scan: attempted={attempted}, published={processed}, errors={len(failures)}")
