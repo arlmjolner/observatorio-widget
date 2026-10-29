@@ -32,11 +32,15 @@ def find(url):
     req = Request(url, headers={"User-Agent": "ElObservatorio-AudioProcessor/1.0"})
     try:
         with urlopen(req, timeout=30) as response:
-            if "text/html" not in response.headers.get("Content-Type", "").lower():
-                raise ValueError("Expected HTML response")
+            status = response.status
+            media_type = response.headers.get("Content-Type", "unknown")
+            print(f"HTTP {status}; Content-Type: {media_type}; final host: {urlparse(response.url).hostname}", file=sys.stderr)
+            if "text/html" not in media_type.lower():
+                raise ValueError(f"Expected HTML, received {media_type}")
             content = response.read(5 * 1024 * 1024).decode("utf-8", "replace")
+            print(f"Received {len(content.encode("utf-8"))} approximate HTML bytes", file=sys.stderr)
     except urllib.error.HTTPError as exc:
-        raise ValueError(f"Publisher HTML request returned HTTP {exc.code}; access may require an authorized publisher integration") from None
+        raise ValueError(f"Publisher HTML request returned HTTP {exc.code} {exc.reason}; URL host: {urlparse(url).hostname}") from None
     except urllib.error.URLError as exc:
         raise ValueError(f"Publisher HTML request failed: {exc.reason}") from None
     finder = Finder()
