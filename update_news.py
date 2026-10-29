@@ -11,6 +11,12 @@ TOPICS={
     "Tecnología":BASE+"/headlines/section/topic/TECHNOLOGY"+PARAM,
     "Ciencia":BASE+"/headlines/section/topic/SCIENCE"+PARAM,
     "Salud":BASE+"/headlines/section/topic/HEALTH"+PARAM,
+    "OKDIARIO":"https://okdiario.com/feed",
+    "Libertad Digital":BASE+"/search?q="+quote("site:libertaddigital.com when:3d")+"&hl=es&gl=ES&ceid=ES:es",
+    "La Gaceta":BASE+"/search?q="+quote("site:gaceta.es when:3d")+"&hl=es&gl=ES&ceid=ES:es",
+    "Público":BASE+"/search?q="+quote("site:publico.es when:3d")+"&hl=es&gl=ES&ceid=ES:es",
+    "El Salto":"https://www.elsaltodiario.com/feed",
+    "Mundo Obrero":BASE+"/search?q="+quote("site:mundoobrero.es when:7d")+"&hl=es&gl=ES&ceid=ES:es",
     "BBC News Mundo":"https://feeds.bbci.co.uk/mundo/rss.xml",
     "La Vanguardia":"https://www.lavanguardia.com/rss/home.xml",
     "elDiario.es":"https://www.eldiario.es/rss/",
@@ -19,6 +25,15 @@ TOPICS={
     "The New York Times":"https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
 }
 NS={"media":"http://search.yahoo.com/mrss/","content":"http://purl.org/rss/1.0/modules/content/"}
+# Editorial tendency is a broad, contestable description of the outlet, not the article.
+# Labels are intentionally descriptive rather than declaring every article partisan.
+ALIGNMENTS={
+"BBC News Mundo":"Sin clasificación","La Vanguardia":"Centro","elDiario.es":"Izquierda",
+"Cadena SER":"Centroizquierda","EL PAÍS":"Centroizquierda","The New York Times":"Centroizquierda",
+"OKDIARIO":"Derecha","Libertad Digital":"Derecha","La Gaceta":"Derecha radical",
+"Público":"Izquierda","El Salto":"Izquierda alternativa","Mundo Obrero":"Izquierda comunista"
+}
+
 def clean(s):
     return re.sub(r"\s+"," ",html.unescape(re.sub(r"<[^>]*>"," ",s or ""))).strip()
 def get_image(item):
@@ -43,7 +58,7 @@ def collect(item,label):
     try: date=email.utils.parsedate_to_datetime(date).isoformat()
     except Exception: date=""
     summary=clean(value("description"))
-    return {"title":title,"description":summary[:320],"source":label if label not in ("Portada","Mundo","Economía","Tecnología","Ciencia","Salud") else (source.text if source is not None else "Google News"),"url":url,"image":image,"date":date}
+    return {"title":title,"description":summary[:320],"alignment":ALIGNMENTS.get(label,"Sin clasificación"),"source":label if label not in ("Portada","Mundo","Economía","Tecnología","Ciencia","Salud") else (source.text if source is not None else "Google News"),"url":url,"image":image,"date":date}
 def load(pair):
     label,url=pair
     try:
@@ -65,7 +80,7 @@ if not any(result.values()):
     raise SystemExit("All feeds failed; retaining previous news")
 # Combine direct publisher RSS and Google News into one chronologically sorted front page.
 # Keep source tabs intact and remove cross-feed duplicates by URL / normalized title.
-publishers=("BBC News Mundo","La Vanguardia","elDiario.es","Cadena SER","EL PAÍS","The New York Times")
+publishers=("BBC News Mundo","La Vanguardia","elDiario.es","Cadena SER","EL PAÍS","The New York Times","OKDIARIO","Libertad Digital","La Gaceta","Público","El Salto","Mundo Obrero")
 merged=[]
 seen=set()
 for label in ("Portada",)+publishers:
