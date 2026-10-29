@@ -65,7 +65,6 @@ if not any(result.values()):
     raise SystemExit("All feeds failed; retaining previous news")
 # Combine direct publisher RSS and Google News into one chronologically sorted front page.
 # Keep source tabs intact and remove cross-feed duplicates by URL / normalized title.
-from datetime import datetime, timezone
 publishers=("BBC News Mundo","La Vanguardia","elDiario.es","Cadena SER","EL PAÍS","The New York Times")
 merged=[]
 seen=set()
@@ -77,7 +76,7 @@ for label in ("Portada",)+publishers:
         seen.add(key)
         merged.append(story)
 def sort_date(story):
-    try:return datetime.fromisoformat(story["date"]).timestamp()
+    try:return datetime.datetime.fromisoformat(story["date"]).timestamp()
     except (ValueError, TypeError, KeyError):return 0
 merged.sort(key=sort_date,reverse=True)
 result["Últimas noticias"]=merged[:150]
