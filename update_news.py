@@ -6,7 +6,7 @@ BASE="https://news.google.com/rss"
 PARAM="?hl=es&gl=ES&ceid=ES:es"
 TOPICS={"Portada":BASE+PARAM,"Mundo":BASE+"/headlines/section/topic/WORLD"+PARAM,"Economía":BASE+"/headlines/section/topic/BUSINESS"+PARAM,"Tecnología":BASE+"/headlines/section/topic/TECHNOLOGY"+PARAM,"Ciencia":BASE+"/headlines/section/topic/SCIENCE"+PARAM,"Salud":BASE+"/headlines/section/topic/HEALTH"+PARAM}
 NS={"media":"http://search.yahoo.com/mrss/"}
-def clean(s): return re.sub(r"\\s+"," ",html.unescape(re.sub(r"<[^>]*>"," ",s or ""))).strip()
+def clean(s): return re.sub("\\s+"," ",html.unescape(re.sub("<[^>]*>"," ",s or ""))).strip()
 def collect(item):
     def value(name): return item.findtext(name,default="").strip()
     title=clean(value("title"))
@@ -21,7 +21,7 @@ def collect(item):
             image=node.get("url")
             break
     if not image:
-        match=re.search(r'<img[^>]+src=["\\'](https://[^"\\']+)["\\']',value("description"),re.I)
+        match=re.search("<img[^>]+src=[\"\u0027](https://[^\"\u0027]+)",value("description"),re.I)
         if match:image=html.unescape(match.group(1))
     if not image:
         # Google News often omits article images. Try Open Graph only when link
@@ -35,7 +35,7 @@ def collect(item):
                     if "text/html" in response.headers.get("Content-Type",""):
                         page=response.read(250000).decode("utf8","ignore")
                         for key in ("og:image","twitter:image"):
-                            match=re.search(r'<meta[^>]*(?:property|name)=["\\']'+key+r'["\\'][^>]*content=["\\']([^"\\']+)',page,re.I)
+                            match=re.search("<meta[^>]*(?:property|name)=[\"\u0027]"+key+"[\"\u0027][^>]*content=[\"\u0027]([^\"\u0027]+)",page,re.I)
                             if match:image=html.unescape(match.group(1));break
             except Exception:
                 pass
