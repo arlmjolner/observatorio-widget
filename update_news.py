@@ -1,6 +1,6 @@
 import json, urllib.request, xml.etree.ElementTree as ET, re, html, datetime, email.utils
 from concurrent.futures import ThreadPoolExecutor
-from urllib.parse import quote, urlparse
+from urllib.parse import quote, urlparse, urlsplit, urlunsplit, parse_qsl, urlencode
 
 BASE="https://news.google.com/rss"
 PARAM="?hl=es&gl=ES&ceid=ES:es"
@@ -24,6 +24,7 @@ TOPICS={
     "EL PAÍS":"https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada",
     "The New York Times":"https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
 }
+MAX_PER_FEED=200
 NS={"media":"http://search.yahoo.com/mrss/","content":"http://purl.org/rss/1.0/modules/content/"}
 # Editorial tendency is a broad, contestable description of the outlet, not the article.
 # Labels are intentionally descriptive rather than declaring every article partisan.
@@ -59,6 +60,24 @@ def collect(item,label):
     except Exception: date=""
     summary=clean(value("description"))
     return {"title":title,"description":summary[:320],"alignment":ALIGNMENTS.get(label,ALIGNMENTS.get(source.text.strip() if source is not None and source.text else "", "Sin clasificación")),"source":label if label not in ("Portada","Mundo","Economía","Tecnología","Ciencia","Salud") else (source.text if source is not None else "Google News"),"url":url,"image":image,"date":date}
+def deduplicate(stories, limit=MAX_PER_FEED):
+    seen_urls=set()
+    seen_titles=set()
+    unique=[]
+    for story in stories:
+        parts=urlsplit(story["url"])
+        params=[(k,v) for k,v in parse_qsl(parts.query,keep_blank_values=True)
+                if not k.lower().startswith("utm_") and k.lower() not in {"fbclid","gclid"}]
+        normalized_url=urlunsplit((parts.scheme,parts.netloc.lower(),parts.path.rstrip("/"),urlencode(sorted(params)),""))
+        normalized_title=re.sub(r"[^\\w]+","",story["title"].casefold())
+        if normalized_url in seen_urls or (normalized_title and normalized_title in seen_titles):
+            continue
+        seen_urls.add(normalized_url)
+        if normalized_title: seen_titles.add(normalized_title)
+        unique.append(story)
+        if len(unique)>=limit: break
+    return unique
+
 def load(pair):
     label,url=pair
     try:
@@ -67,8 +86,8 @@ def load(pair):
         root=ET.fromstring(raw)
         nodes=root.findall("./channel/item")
         if not nodes: nodes=root.findall("{http://www.w3.org/2005/Atom}entry")
-        stories=[collect(x,label) for x in nodes[:30]]
-        stories=[x for x in stories if x["title"] and x["url"].startswith("https://")]
+        stories=[collect(x,label) for x in nodes]
+        stories=deduplicate([x for x in stories if x["title"] and x["url"].startswith("https://")])
         print(label,len(stories),"images",sum(bool(x["image"]) for x in stories),flush=True)
         return label,stories
     except Exception as error:
@@ -82,19 +101,14 @@ if not any(result.values()):
 # Keep source tabs intact and remove cross-feed duplicates by URL / normalized title.
 publishers=("BBC News Mundo","La Vanguardia","elDiario.es","Cadena SER","EL PAÍS","The New York Times","OKDIARIO","Libertad Digital","La Gaceta","Público","El Salto","Mundo Obrero")
 merged=[]
-seen=set()
 for label in ("Portada",)+publishers:
-    for story in result.get(label,[]):
-        key=re.sub(r"[^a-z0-9]+","",story["title"].casefold())
-        key=key[:110] or story["url"].split("?")[0]
-        if key in seen:continue
-        seen.add(key)
-        merged.append(story)
+    merged.extend(result.get(label,[]))
+merged=deduplicate(merged,limit=MAX_PER_FEED*len(publishers))
 def sort_date(story):
     try:return datetime.datetime.fromisoformat(story["date"]).timestamp()
     except (ValueError, TypeError, KeyError):return 0
 merged.sort(key=sort_date,reverse=True)
-result["Últimas noticias"]=merged[:150]
+result["Últimas noticias"]=merged
 print("Combined front page:",len(result["Últimas noticias"]),flush=True)
 with open("news.json","w",encoding="utf-8") as output:
     json.dump({"updated":datetime.datetime.now(datetime.timezone.utc).isoformat(),"categories":result},output,ensure_ascii=False)
