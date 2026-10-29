@@ -1,0 +1,38 @@
+{
+  "attempted": 8,
+  "published": 0,
+  "failures": [
+    {
+      "url": "https://www.nytimes.com/2026/10/29/us/politics/nvidia-china-jensen-huang-trump.html",
+      "error": "Traceback (most recent call last):\n  File \"/home/runner/work/observatorio-widget/observatorio-widget/scripts/find_article_audio.py\", line 48, in <module>\n    print(find(sys.argv[1]))\n          ^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/observatorio-widget/observatorio-widget/scripts/find_article_audio.py\", line 34, in find\n    with urlopen(req, timeout=30) as response:\n         ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py\", line 215, in urlopen\n    return opener.open(url, data, timeout)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  F"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/29/us/politics/midterms-third-party-independent-candidates.html",
+      "error": "Traceback (most recent call last):\n  File \"/home/runner/work/observatorio-widget/observatorio-widget/scripts/find_article_audio.py\", line 48, in <module>\n    print(find(sys.argv[1]))\n          ^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/observatorio-widget/observatorio-widget/scripts/find_article_audio.py\", line 34, in find\n    with urlopen(req, timeout=30) as response:\n         ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py\", line 215, in urlopen\n    return opener.open(url, data, timeout)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  F"
+    },
+    {
+      "url": "https://www.nytimes.com/video/us/elections/100000011223984/the-red-states-that-could-decide-the-senate.html",
+      "error": "Traceback (most recent call last):\n  File \"/home/runner/work/observatorio-widget/observatorio-widget/scripts/find_article_audio.py\", line 48, in <module>\n    print(find(sys.argv[1]))\n          ^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/observatorio-widget/observatorio-widget/scripts/find_article_audio.py\", line 34, in find\n    with urlopen(req, timeout=30) as response:\n         ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py\", line 215, in urlopen\n    return opener.open(url, data, timeout)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  F"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/29/upshot/midterm-elections-senate-house-scenarios.html",
+      "error": "Traceback (most recent call last):\n  File \"/home/runner/work/observatorio-widget/observatorio-widget/scripts/find_article_audio.py\", line 48, in <module>\n    print(find(sys.argv[1]))\n          ^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/observatorio-widget/observatorio-widget/scripts/find_article_audio.py\", line 34, in find\n    with urlopen(req, timeout=30) as response:\n         ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py\", line 215, in urlopen\n    return opener.open(url, data, timeout)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  F"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/29/world/americas/flavio-bolsonaro-trump-brazil-us.html",
+      "error": "Traceback (most recent call last):\n  File \"/home/runner/work/observatorio-widget/observatorio-widget/scripts/find_article_audio.py\", line 48, in <module>\n    print(find(sys.argv[1]))\n          ^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/observatorio-widget/observatorio-widget/scripts/find_article_audio.py\", line 34, in find\n    with urlopen(req, timeout=30) as response:\n         ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py\", line 215, in urlopen\n    return opener.open(url, data, timeout)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  F"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/29/us/flavio-bolsonaro-miami-exile.html",
+      "error": "Traceback (most recent call last):\n  File \"/home/runner/work/observatorio-widget/observatorio-widget/scripts/find_article_audio.py\", line 48, in <module>\n    print(find(sys.argv[1]))\n          ^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/observatorio-widget/observatorio-widget/scripts/find_article_audio.py\", line 34, in find\n    with urlopen(req, timeout=30) as response:\n         ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py\", line 215, in urlopen\n    return opener.open(url, data, timeout)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  F"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+      "error": "Traceback (most recent call last):\n  File \"/home/runner/work/observatorio-widget/observatorio-widget/scripts/find_article_audio.py\", line 48, in <module>\n    print(find(sys.argv[1]))\n          ^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/observatorio-widget/observatorio-widget/scripts/find_article_audio.py\", line 34, in find\n    with urlopen(req, timeout=30) as response:\n         ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py\", line 215, in urlopen\n    return opener.open(url, data, timeout)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  F"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/29/arts/patrick-stewart-best-moments-star-trek.html",
+      "error": "Traceback (most recent call last):\n  File \"/home/runner/work/observatorio-widget/observatorio-widget/scripts/find_article_audio.py\", line 48, in <module>\n    print(find(sys.argv[1]))\n          ^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/observatorio-widget/observatorio-widget/scripts/find_article_audio.py\", line 34, in find\n    with urlopen(req, timeout=30) as response:\n         ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py\", line 215, in urlopen\n    return opener.open(url, data, timeout)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  F"
+    }
+  ]
+}
