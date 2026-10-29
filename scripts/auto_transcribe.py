@@ -15,6 +15,7 @@ news = json.loads((ROOT / "news.json").read_text(encoding="utf-8"))
 limit = max(0, min(int(config.get("max_transcriptions_per_run", 2)), 4))
 processed = 0
 attempted = 0
+MAX_ATTEMPTS = 8
 failures = []
 seen = set()
 for section, stories in news.get("categories", {}).items():
@@ -31,6 +32,8 @@ for section, stories in news.get("categories", {}).items():
                 policy.get("license_reference")):
             continue
         if processed >= limit:
+            break
+        if attempted >= MAX_ATTEMPTS:
             break
         attempted += 1
         try:
