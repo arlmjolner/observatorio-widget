@@ -1,4 +1,10 @@
 {
   "max_transcriptions_per_run": 2,
-  "authorized_publishers": {}
+  "authorized_publishers": {
+    "www.nytimes.com": {
+      "audio_reproduction_allowed": true,
+      "transcript_republication_allowed": true,
+      "license_reference": "Publisher permission reported by site operator (verbal agreement); written confirmation pending."
+    }
+  }
 }
