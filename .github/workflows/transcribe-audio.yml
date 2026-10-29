@@ -7,8 +7,8 @@ on:
         required: true
         type: string
       audio_url:
-        description: "Direct HTTPS audio URL with reuse permission"
-        required: true
+        description: "Optional direct HTTPS audio URL; otherwise find <audio> in article HTML"
+        required: false
         type: string
       title:
         description: "Title for the transcript page"
@@ -48,6 +48,9 @@ jobs:
           AUDIO_URL: ${{ inputs.audio_url }}
           TITLE: ${{ inputs.title }}
         run: |
+          if [ -z "$AUDIO_URL" ]; then
+            AUDIO_URL=$(python scripts/find_article_audio.py "$ARTICLE_URL")
+          fi
           python scripts/transcribe_authorized_audio.py \
             --article-url "$ARTICLE_URL" \
             --audio-url "$AUDIO_URL" \
