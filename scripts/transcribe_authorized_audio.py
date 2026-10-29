@@ -67,7 +67,7 @@ a{{color:#c6ac81}}pre{{white-space:pre-wrap;font:inherit}}small{{color:#aeb4bc}}
     (out / f"{digest}.html").write_text(page, encoding="utf-8")
     index_file = out / "index.json"
     index = json.loads(index_file.read_text(encoding="utf-8")) if index_file.exists() else {}
-    index[args.article_url] = {"transcript": f"transcripts/{digest}.html", "title": args.title, "language": info.language}
+    index[args.article_url] = {"transcript": f"transcripts/{digest}.html", "audio": args.audio_url, "title": args.title, "language": info.language}
     index_file.write_text(json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Generated transcripts/{digest}.html (language: {info.language})")
 
