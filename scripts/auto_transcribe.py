@@ -54,6 +54,8 @@ for section, stories in news.get("categories", {}).items():
             processed += 1
         except (subprocess.CalledProcessError, subprocess.TimeoutExpired, ValueError) as exc:
             detail = (getattr(exc, "stderr", "") or str(exc)).strip()
+            if "\\n" in detail:
+                detail = detail.splitlines()[-1]
             failures.append({"url": url, "error": detail[:600]})
             print(f"Skipping {url}: {detail}", file=sys.stderr, flush=True)
     if processed >= limit:
@@ -61,3 +63,5 @@ for section, stories in news.get("categories", {}).items():
 report = {"attempted": attempted, "published": processed, "failures": failures[:30]}
 (ROOT / "audio-diagnostics.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
 print(f"Audio scan: attempted={attempted}, published={processed}, errors={len(failures)}")
+if attempted and not processed:
+    raise SystemExit("Audio pipeline processed no recordings: see audio-diagnostics.json")
