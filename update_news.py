@@ -63,5 +63,24 @@ with ThreadPoolExecutor(max_workers=8) as executor:
     result=dict(executor.map(load,TOPICS.items()))
 if not any(result.values()):
     raise SystemExit("All feeds failed; retaining previous news")
+# Combine direct publisher RSS and Google News into one chronologically sorted front page.
+# Keep source tabs intact and remove cross-feed duplicates by URL / normalized title.
+from datetime import datetime, timezone
+publishers=("BBC News Mundo","La Vanguardia","elDiario.es","Cadena SER","EL PAÍS","The New York Times")
+merged=[]
+seen=set()
+for label in ("Portada",)+publishers:
+    for story in result.get(label,[]):
+        key=re.sub(r"[^a-z0-9]+","",story["title"].casefold())
+        key=key[:110] or story["url"].split("?")[0]
+        if key in seen:continue
+        seen.add(key)
+        merged.append(story)
+def sort_date(story):
+    try:return datetime.fromisoformat(story["date"]).timestamp()
+    except (ValueError, TypeError, KeyError):return 0
+merged.sort(key=sort_date,reverse=True)
+result["Últimas noticias"]=merged[:150]
+print("Combined front page:",len(result["Últimas noticias"]),flush=True)
 with open("news.json","w",encoding="utf-8") as output:
     json.dump({"updated":datetime.datetime.now(datetime.timezone.utc).isoformat(),"categories":result},output,ensure_ascii=False)
