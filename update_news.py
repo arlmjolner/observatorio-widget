@@ -12,9 +12,33 @@ def collect(item):
     title=clean(value("title"))
     desc=clean(value("description"))
     source=item.find("source")
-    media=item.find("media:content",NS) or item.find("media:thumbnail",NS)
-    enclosure=item.find("enclosure")
-    image=(media.get("url") if media is not None else "") or (enclosure.get("url") if enclosure is not None else "")
+    # Prefer a genuine image from the RSS item (RSS and Media RSS).
+    image=""
+    for node in (item.find("media:content", NS), item.find("media:thumbnail", NS), item.find("enclosure")):
+        if node is not None and (node.get("url") or "").startswith("https://"):
+            if node.tag == "enclosure" and node.get("type") and not node.get("type").startswith("image/"):
+                continue
+            image=node.get("url")
+            break
+    if not image:
+        match=re.search(r'<img[^>]+src=["\\'](https://[^"\\']+)["\\']',value("description"),re.I)
+        if match:image=html.unescape(match.group(1))
+    if not image:
+        # Google News often omits article images. Try Open Graph only when link
+        # points directly to a publisher (not to news.google.com).
+        from urllib.parse import urlparse
+        link=value("link")
+        if urlparse(link).hostname not in ("news.google.com", "www.google.com"):
+            try:
+                req=urllib.request.Request(link,headers={"User-Agent":"Mozilla/5.0"})
+                with urllib.request.urlopen(req,timeout=5) as response:
+                    if "text/html" in response.headers.get("Content-Type",""):
+                        page=response.read(250000).decode("utf8","ignore")
+                        for key in ("og:image","twitter:image"):
+                            match=re.search(r'<meta[^>]*(?:property|name)=["\\']'+key+r'["\\'][^>]*content=["\\']([^"\\']+)',page,re.I)
+                            if match:image=html.unescape(match.group(1));break
+            except Exception:
+                pass
     try: date=email.utils.parsedate_to_datetime(value("pubDate")).isoformat()
     except Exception: date=""
     return {"title":title,"description":desc[:320],"source":source.text if source is not None else "Google News","url":value("link"),"image":image,"date":date}
