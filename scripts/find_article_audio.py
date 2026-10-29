@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Discover a native audio element in a publicly accessible article HTML page."""
 import sys
+import re
+import html
 from html.parser import HTMLParser
 from urllib.parse import urljoin, urlparse
 from urllib.request import Request, urlopen
@@ -10,8 +12,11 @@ class Finder(HTMLParser):
         super().__init__()
         self.inside = False
         self.urls = []
+        self.meta_urls = []
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
+        if tag == "meta" and attrs.get("property") in ("og:audio", "og:audio:url", "og:audio:secure_url") and attrs.get("content"):
+            self.meta_urls.append(attrs["content"])
         if tag == "audio":
             self.inside = True
             if attrs.get("src"):
@@ -32,11 +37,12 @@ def find(url):
         content = response.read(5 * 1024 * 1024).decode("utf-8", "replace")
     finder = Finder()
     finder.feed(content)
-    for source in finder.urls:
+    # Prefer a native audio player; accept explicit Open Graph audio metadata.
+    for source in finder.urls + finder.meta_urls:
         resolved = urljoin(url, source)
         if urlparse(resolved).scheme == "https":
             return resolved
-    raise ValueError("No direct audio source found in initial HTML")
+    raise ValueError("No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article")
 
 if __name__ == "__main__":
     print(find(sys.argv[1]))
