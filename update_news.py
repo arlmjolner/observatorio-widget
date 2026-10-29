@@ -11,11 +11,11 @@ TOPICS={
     "Tecnología":BASE+"/headlines/section/topic/TECHNOLOGY"+PARAM,
     "Ciencia":BASE+"/headlines/section/topic/SCIENCE"+PARAM,
     "Salud":BASE+"/headlines/section/topic/HEALTH"+PARAM,
-    "OKDIARIO":"https://okdiario.com/feed",
+    "OKDIARIO":BASE+"/search?q="+quote("site:okdiario.com when:3d")+"&hl=es&gl=ES&ceid=ES:es",
     "Libertad Digital":BASE+"/search?q="+quote("site:libertaddigital.com when:3d")+"&hl=es&gl=ES&ceid=ES:es",
     "La Gaceta":BASE+"/search?q="+quote("site:gaceta.es when:3d")+"&hl=es&gl=ES&ceid=ES:es",
     "Público":BASE+"/search?q="+quote("site:publico.es when:3d")+"&hl=es&gl=ES&ceid=ES:es",
-    "El Salto":"https://www.elsaltodiario.com/feed",
+    "El Salto":BASE+"/search?q="+quote("site:elsaltodiario.com when:7d")+"&hl=es&gl=ES&ceid=ES:es",
     "Mundo Obrero":BASE+"/search?q="+quote("site:mundoobrero.es when:7d")+"&hl=es&gl=ES&ceid=ES:es",
     "BBC News Mundo":"https://feeds.bbci.co.uk/mundo/rss.xml",
     "La Vanguardia":"https://www.lavanguardia.com/rss/home.xml",
@@ -58,7 +58,7 @@ def collect(item,label):
     try: date=email.utils.parsedate_to_datetime(date).isoformat()
     except Exception: date=""
     summary=clean(value("description"))
-    return {"title":title,"description":summary[:320],"alignment":ALIGNMENTS.get(label,"Sin clasificación"),"source":label if label not in ("Portada","Mundo","Economía","Tecnología","Ciencia","Salud") else (source.text if source is not None else "Google News"),"url":url,"image":image,"date":date}
+    return {"title":title,"description":summary[:320],"alignment":ALIGNMENTS.get(label,ALIGNMENTS.get(source.text.strip() if source is not None and source.text else "", "Sin clasificación")),"source":label if label not in ("Portada","Mundo","Economía","Tecnología","Ciencia","Salud") else (source.text if source is not None else "Google News"),"url":url,"image":image,"date":date}
 def load(pair):
     label,url=pair
     try:
