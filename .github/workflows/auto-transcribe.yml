@@ -31,6 +31,13 @@ jobs:
           pip install faster-whisper==1.2.1
       - name: Process licensed audio
         run: python scripts/auto_transcribe.py
+      - name: Upload audio diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: audio-diagnostics
+          path: audio-diagnostics.json
+          if-no-files-found: warn
       - name: Publish generated transcripts
         run: |
           if [ -n "$(git status --porcelain transcripts/)" ]; then
