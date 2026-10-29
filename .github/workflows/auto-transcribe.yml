@@ -38,6 +38,20 @@ jobs:
           name: audio-diagnostics
           path: audio-diagnostics.json
           if-no-files-found: warn
+      - name: Commit public processing status
+        if: always()
+        run: |
+          if [ -f audio-diagnostics.json ]; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            cp audio-diagnostics.json audio-status.json
+            git add audio-status.json
+            if ! git diff --cached --quiet; then
+              git commit -m 'Update audio processing status'
+              git pull --rebase origin main
+              git push
+            fi
+          fi
       - name: Publish generated transcripts
         run: |
           if [ -n "$(git status --porcelain transcripts/)" ]; then
