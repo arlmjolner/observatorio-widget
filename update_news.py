@@ -15,9 +15,6 @@ def collect(item):
     media=item.find("media:content",NS) or item.find("media:thumbnail",NS)
     enclosure=item.find("enclosure")
     image=(media.get("url") if media is not None else "") or (enclosure.get("url") if enclosure is not None else "")
-    if not image:
-        m=re.search(r'<img[^>]+src=["\\'](https://[^"\\']+)',value("description"))
-        if m:image=html.unescape(m.group(1))
     try: date=email.utils.parsedate_to_datetime(value("pubDate")).isoformat()
     except Exception: date=""
     return {"title":title,"description":desc[:320],"source":source.text if source is not None else "Google News","url":value("link"),"image":image,"date":date}
