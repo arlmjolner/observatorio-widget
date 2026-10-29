@@ -1,6 +1,11 @@
 name: Fetch Google News
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'update_news.py'
+      - '.github/workflows/update.yml'
   schedule:
     - cron: '2/5 * * * *'
 permissions:
