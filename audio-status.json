@@ -3,35 +3,35 @@
   "published": 0,
   "failures": [
     {
+      "url": "https://www.nytimes.com/2026/10/29/us/trump-doj-california-voter-rolls-midterms.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/29/us/politics/trump-judge-election-lawsuit.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/29/briefing/us-gdp-patrick-stewart.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+    },
+    {
       "url": "https://www.nytimes.com/2026/10/29/us/politics/nvidia-china-jensen-huang-trump.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
+      "url": "https://www.nytimes.com/2026/10/29/world/middleeast/israel-election-results-netanyahu-eisenkot.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/29/business/polymarket-investigates-israeli-bets.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/29/technology/intel-earnings.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+    },
+    {
       "url": "https://www.nytimes.com/2026/10/29/us/politics/midterms-third-party-independent-candidates.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
-    },
-    {
-      "url": "https://www.nytimes.com/video/us/elections/100000011223984/the-red-states-that-could-decide-the-senate.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/10/29/upshot/midterm-elections-senate-house-scenarios.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/10/29/world/americas/flavio-bolsonaro-trump-brazil-us.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/10/29/us/flavio-bolsonaro-miami-exile.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/10/29/arts/patrick-stewart-best-moments-star-trek.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     }
   ]
