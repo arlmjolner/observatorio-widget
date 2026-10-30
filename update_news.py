@@ -125,8 +125,31 @@ for category,pattern in CATEGORY_TERMS.items():
             if regex.search(story["title"]+" "+story["description"]):
                 combined.append(story)
     result[category]=deduplicate(sorted(combined,key=sort_date,reverse=True),limit=MAX_PER_FEED*len(publishers))
+# Breaking-news candidate selection: recent, high-impact headlines, not a verified emergency label.
+# Keep the newest first; topical keywords only determine inclusion.
+URGENT_TERMS=re.compile(
+    r"\\b(última hora|urgente|en directo|breaking|live updates|alerta|evacuaci[oó]n|"
+    r"terremoto|tsunami|atentado|explosi[oó]n|incendio|inundaci[oó]n|"
+    r"accidente|choque|descarrilamiento|fallecid[oa]s?|muert[oa]s?|v[ií]ctimas|"
+    r"dimisi[oó]n|destituci[oó]n|golpe de estado|alto el fuego|"
+    r"ataque|bombardeo|invasion|invasi[oó]n|"
+    r"elecciones|resultados electorales|emergencia|outbreak|earthquake|"
+    r"shooting|crash|resigns|ceasefire|war|killed|dead)\\b",re.IGNORECASE)
+now=datetime.datetime.now(datetime.timezone.utc).timestamp()
+def age_hours(story):
+    timestamp=sort_date(story)
+    return (now-timestamp)/3600 if timestamp else float("inf")
+recent=[s for s in merged if -0.25 <= age_hours(s) <= 24]
+priority=[s for s in recent if URGENT_TERMS.search(s["title"])]
+# If fewer significant headlines are available, fill with the newest articles.
+priority_urls={s["url"] for s in priority}
+breaking=(priority+[s for s in recent if s["url"] not in priority_urls])[:60]
+if not breaking:
+    breaking=merged[:30]
+# Display chronological order even when priority influences membership.
+breaking.sort(key=sort_date,reverse=True)
 result["Portada"]=merged
-result["Últimas noticias"]=merged
+result["Últimas noticias"]=breaking
 print("Combined front page:",len(result["Últimas noticias"]),flush=True)
 with open("news.json","w",encoding="utf-8") as output:
     json.dump({"updated":datetime.datetime.now(datetime.timezone.utc).isoformat(),"categories":result},output,ensure_ascii=False)
