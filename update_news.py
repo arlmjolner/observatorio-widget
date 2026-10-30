@@ -108,6 +108,23 @@ def sort_date(story):
     try:return datetime.datetime.fromisoformat(story["date"]).timestamp()
     except (ValueError, TypeError, KeyError):return 0
 merged.sort(key=sort_date,reverse=True)
+# Enrich thematic categories with relevant articles from every direct publisher feed.
+# Google News topical RSS remains a source; classification is conservative keyword matching.
+CATEGORY_TERMS={
+    "Mundo":r"\\b(internacional|geopol[ií]tic|diplomac|guerra|conflicto|onu|otan|frontera|migraci[oó]n|ucrania|rusia|china|ee\\s?uu|estados unidos|medio oriente|oriente medio|gaza|israel|palestina|world|foreign|global)\\b",
+    "Economía":r"\\b(econom[ií]a|econ[oó]mic|inflaci[oó]n|empleo|desempleo|salario|banco|bolsa|mercado|empresa|negocio|inversi[oó]n|finanz|pib|impuesto|arancel|tipos de inter[eé]s|comercio|economy|business|stocks|trade|finance)\\b",
+    "Tecnología":r"\\b(tecnolog[ií]a|inteligencia artificial|\\bia\\b|software|hardware|internet|ciberseguridad|chip|semiconductor|robot|digital|algoritmo|openai|google|microsoft|apple|meta|nvidia|technology|artificial intelligence|cyber|computing)\\b",
+    "Ciencia":r"\\b(ciencia|cient[ií]fic|investigaci[oó]n|astronom[ií]a|espacio|planeta|nasa|f[ií]sica|biolog[ií]a|descubrimiento|experimento|clima|cient[ií]fic|science|research|scientist|space|climate)\\b",
+    "Salud":r"\\b(salud|sanidad|hospital|m[eé]dic|enfermedad|vacuna|paciente|tratamiento|f[aá]rmaco|medicina|epidemia|virus|mental health|health|medical|disease|vaccine|drug|hospital)\\b"
+}
+for category,pattern in CATEGORY_TERMS.items():
+    combined=list(result.get(category,[]))
+    regex=re.compile(pattern,re.IGNORECASE)
+    for publisher in publishers:
+        for story in result.get(publisher,[]):
+            if regex.search(story["title"]+" "+story["description"]):
+                combined.append(story)
+    result[category]=deduplicate(sorted(combined,key=sort_date,reverse=True),limit=MAX_PER_FEED*len(publishers))
 result["Últimas noticias"]=merged
 print("Combined front page:",len(result["Últimas noticias"]),flush=True)
 with open("news.json","w",encoding="utf-8") as output:
