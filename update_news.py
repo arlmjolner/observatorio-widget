@@ -125,29 +125,25 @@ for category,pattern in CATEGORY_TERMS.items():
             if regex.search(story["title"]+" "+story["description"]):
                 combined.append(story)
     result[category]=deduplicate(sorted(combined,key=sort_date,reverse=True),limit=MAX_PER_FEED*len(publishers))
-# Breaking-news candidate selection: recent, high-impact headlines, not a verified emergency label.
-# Keep the newest first; topical keywords only determine inclusion.
+# Últimas noticias: a distinct, conservative high-impact feed.
+# Portada remains the complete collection, strictly newest-first.
 URGENT_TERMS=re.compile(
-    r"\\b(última hora|urgente|en directo|breaking|live updates|alerta|evacuaci[oó]n|"
-    r"terremoto|tsunami|atentado|explosi[oó]n|incendio|inundaci[oó]n|"
-    r"accidente|choque|descarrilamiento|fallecid[oa]s?|muert[oa]s?|v[ií]ctimas|"
-    r"dimisi[oó]n|destituci[oó]n|golpe de estado|alto el fuego|"
-    r"ataque|bombardeo|invasion|invasi[oó]n|"
-    r"elecciones|resultados electorales|emergencia|outbreak|earthquake|"
-    r"shooting|crash|resigns|ceasefire|war|killed|dead)\\b",re.IGNORECASE)
+    r"\\b(última hora|urgente|en directo|breaking news|breaking:|live updates|"
+    r"alerta roja|evacuaci[oó]n|terremoto|tsunami|atentado|explosi[oó]n|"
+    r"descarrilamiento|cat[aá]strofe|emergencia|estado de alarma|"
+    r"golpe de estado|alto el fuego|bombardeo|"
+    r"dimite|dimisi[oó]n|destituido|"
+    r"earthquake|evacuation|ceasefire|resigns)\\b", re.IGNORECASE
+)
 now=datetime.datetime.now(datetime.timezone.utc).timestamp()
 def age_hours(story):
     timestamp=sort_date(story)
     return (now-timestamp)/3600 if timestamp else float("inf")
-recent=[s for s in merged if -0.25 <= age_hours(s) <= 24]
-priority=[s for s in recent if URGENT_TERMS.search(s["title"])]
-# If fewer significant headlines are available, fill with the newest articles.
-priority_urls={s["url"] for s in priority}
-breaking=(priority+[s for s in recent if s["url"] not in priority_urls])[:60]
-if not breaking:
-    breaking=merged[:30]
-# Display chronological order even when priority influences membership.
-breaking.sort(key=sort_date,reverse=True)
+recent=[story for story in merged if -0.25<=age_hours(story)<=24]
+breaking=[story for story in recent if URGENT_TERMS.search(story["title"])]
+# Do not fill with ordinary Portada stories: that made both tabs almost identical.
+# Empty is a valid result when no relevant breaking-news candidate is published.
+breaking=breaking[:40]
 result["Portada"]=merged
 result["Últimas noticias"]=breaking
 print("Combined front page:",len(result["Últimas noticias"]),flush=True)
