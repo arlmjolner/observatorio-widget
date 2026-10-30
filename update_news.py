@@ -103,11 +103,11 @@ publishers=("BBC News Mundo","La Vanguardia","elDiario.es","Cadena SER","EL PAÍ
 merged=[]
 for label in ("Portada",)+publishers:
     merged.extend(result.get(label,[]))
-merged=deduplicate(merged,limit=MAX_PER_FEED*len(publishers))
 def sort_date(story):
     try:return datetime.datetime.fromisoformat(story["date"]).timestamp()
     except (ValueError, TypeError, KeyError):return 0
 merged.sort(key=sort_date,reverse=True)
+merged=deduplicate(merged,limit=MAX_PER_FEED*len(publishers))
 # Enrich thematic categories with relevant articles from every direct publisher feed.
 # Google News topical RSS remains a source; classification is conservative keyword matching.
 CATEGORY_TERMS={
@@ -125,6 +125,7 @@ for category,pattern in CATEGORY_TERMS.items():
             if regex.search(story["title"]+" "+story["description"]):
                 combined.append(story)
     result[category]=deduplicate(sorted(combined,key=sort_date,reverse=True),limit=MAX_PER_FEED*len(publishers))
+result["Portada"]=merged
 result["Últimas noticias"]=merged
 print("Combined front page:",len(result["Últimas noticias"]),flush=True)
 with open("news.json","w",encoding="utf-8") as output:
