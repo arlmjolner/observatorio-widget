@@ -11,6 +11,11 @@ TOPICS={
     "Tecnología":BASE+"/headlines/section/topic/TECHNOLOGY"+PARAM,
     "Ciencia":BASE+"/headlines/section/topic/SCIENCE"+PARAM,
     "Salud":BASE+"/headlines/section/topic/HEALTH"+PARAM,
+    "Política":BASE+"/search?q="+quote("política gobierno parlamento elecciones when:7d")+"&hl=es&gl=ES&ceid=ES:es",
+    "Sociedad":BASE+"/search?q="+quote("sociedad educación vivienda derechos when:7d")+"&hl=es&gl=ES&ceid=ES:es",
+    "Cultura":BASE+"/search?q="+quote("cultura libros cine música arte when:7d")+"&hl=es&gl=ES&ceid=ES:es",
+    "Medio ambiente":BASE+"/search?q="+quote("medio ambiente cambio climático energía biodiversidad when:7d")+"&hl=es&gl=ES&ceid=ES:es",
+    "Deportes":BASE+"/headlines/section/topic/SPORTS"+PARAM,
     "OKDIARIO":BASE+"/search?q="+quote("site:okdiario.com when:3d")+"&hl=es&gl=ES&ceid=ES:es",
     "Libertad Digital":BASE+"/search?q="+quote("site:libertaddigital.com when:3d")+"&hl=es&gl=ES&ceid=ES:es",
     "La Gaceta":BASE+"/search?q="+quote("site:gaceta.es when:3d")+"&hl=es&gl=ES&ceid=ES:es",
@@ -59,7 +64,7 @@ def collect(item,label):
     try: date=email.utils.parsedate_to_datetime(date).isoformat()
     except Exception: date=""
     summary=clean(value("description"))
-    return {"title":title,"description":summary[:320],"alignment":ALIGNMENTS.get(label,ALIGNMENTS.get(source.text.strip() if source is not None and source.text else "", "Sin clasificación")),"source":label if label not in ("Portada","Mundo","Economía","Tecnología","Ciencia","Salud") else (source.text if source is not None else "Google News"),"url":url,"image":image,"date":date}
+    return {"title":title,"description":summary[:320],"alignment":ALIGNMENTS.get(label,ALIGNMENTS.get(source.text.strip() if source is not None and source.text else "", "Sin clasificación")),"source":label if label not in ("Portada","Mundo","Economía","Tecnología","Ciencia","Salud","Política","Sociedad","Cultura","Medio ambiente","Deportes") else (source.text if source is not None else "Google News"),"url":url,"image":image,"date":date}
 def deduplicate(stories, limit=MAX_PER_FEED):
     seen_urls=set()
     seen_titles=set()
@@ -111,6 +116,11 @@ merged=deduplicate(merged,limit=MAX_PER_FEED*len(publishers))
 # Enrich thematic categories with relevant articles from every direct publisher feed.
 # Google News topical RSS remains a source; classification is conservative keyword matching.
 CATEGORY_TERMS={
+    "Política":r"\b(política|político|gobierno|congreso|senado|parlamento|elecciones|presidente|ministro|partido|ley|legislación|politics|election|government)\b",
+    "Sociedad":r"\b(sociedad|educación|universidad|vivienda|alquiler|igualdad|derechos|familia|escuela|social|education|housing|rights)\b",
+    "Cultura":r"\b(cultura|literatura|libros|cine|película|música|concierto|teatro|museo|arte|culture|film|music|books|art)\b",
+    "Medio ambiente":r"\b(medio ambiente|clima|climático|ecología|biodiversidad|contaminación|emisiones|energía renovable|environment|climate|pollution)\b",
+    "Deportes":r"\b(deporte|fútbol|baloncesto|tenis|liga|mundial|olímpic|sport|football|soccer|basketball|tennis)\b",
     "Mundo":r"\b(internacional|geopol[ií]tic|diplomac|guerra|conflicto|onu|otan|frontera|migraci[oó]n|ucrania|rusia|china|ee\s?uu|estados unidos|medio oriente|oriente medio|gaza|israel|palestina|world|foreign|global)\b",
     "Economía":r"\b(econom[ií]a|econ[oó]mic|inflaci[oó]n|empleo|desempleo|salario|banco|bolsa|mercado|empresa|negocio|inversi[oó]n|finanz|pib|impuesto|arancel|tipos de inter[eé]s|comercio|economy|business|stocks|trade|finance)\b",
     "Tecnología":r"\b(tecnolog[ií]a|inteligencia artificial|\bia\b|software|hardware|internet|ciberseguridad|chip|semiconductor|robot|digital|algoritmo|openai|google|microsoft|apple|meta|nvidia|technology|artificial intelligence|cyber|computing)\b",
@@ -125,6 +135,8 @@ for category,pattern in CATEGORY_TERMS.items():
             if regex.search(story["title"]+" "+story["description"]):
                 combined.append(story)
     result[category]=deduplicate(sorted(combined,key=sort_date,reverse=True),limit=MAX_PER_FEED*len(publishers))
+# Also retain an index of publisher articles for reliable combined source/topic filtering.
+result["Todos los artículos"]=deduplicate(sorted([story for stories in result.values() for story in stories],key=sort_date,reverse=True),limit=10000)
 # Últimas noticias: a distinct, conservative high-impact feed.
 # Portada remains the complete collection, strictly newest-first.
 URGENT_TERMS=re.compile(
