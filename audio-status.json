@@ -1,29 +1,33 @@
 {
-  "attempted": 6,
+  "attempted": 7,
   "published": 0,
   "failures": [
     {
-      "url": "https://www.nytimes.com/2026/11/01/opinion/pope-leo-xiv-hegseth-courage.html",
+      "url": "https://www.nytimes.com/2026/11/01/opinion/trump-blanche-comey-justice.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/10/31/world/asia/north-korea-hacking.html",
+      "url": "https://www.nytimes.com/2026/11/01/us/alaska-senate-election-lawsuit.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/10/31/technology/binance-hack-crypto-north-korea.html",
+      "url": "https://www.nytimes.com/2026/11/01/style/nyc-marathon-fashion-outfits.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/10/31/nyregion/nyc-marathon-price.html",
+      "url": "https://www.nytimes.com/2026/11/01/us/politics/election-mood-affordability.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/10/31/us/politics/corruption-midterms.html",
+      "url": "https://www.nytimes.com/2026/11/01/nyregion/new-york-city-marathon-celebrities-running.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/10/29/opinion/interesting-times-podcast-julia-yost-erika-lust.html",
+      "url": "https://www.nytimes.com/2026/11/01/world/middleeast/netanyahu-coalition-building-tests-political-skills.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/01/us/politics/trump-speeches-rallies-age.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     }
   ]
