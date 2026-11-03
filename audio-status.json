@@ -1,33 +1,37 @@
 {
-  "attempted": 7,
+  "attempted": 8,
   "published": 0,
   "failures": [
     {
-      "url": "https://www.nytimes.com/2026/11/01/us/florida-plane-crash-palm-beach-county.html",
+      "url": "https://www.nytimes.com/2026/11/02/us/politics/noncitizen-voters-green-cards.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/01/us/politics/times-siena-poll-senate.html",
+      "url": "https://www.nytimes.com/2026/11/02/opinion/justice-kagan-speak-truth.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/02/us/elections/newsom-harris-becerra-rally.html",
+      "url": "https://www.nytimes.com/2026/11/02/world/europe/russia-polish-political-turmoil.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/02/business/fifa-infantino-taxes.html",
+      "url": "https://www.nytimes.com/2026/11/02/well/kratom-wellness-marketing-addiction.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/01/us/take-back-the-night-protests-sexual-violence.html",
+      "url": "https://www.nytimes.com/2026/11/02/us/politics/trump-supreme-court-california-ballots.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/10/31/business/breeders-cup-thoroughbreds-keeneland-saratoga-sales.html",
+      "url": "https://www.nytimes.com/2026/11/02/opinion/us-china-ai-manufacturing-exports-weapons.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/01/us/politics/el-sayed-stevens-meltdown-michigan-democrats.html",
+      "url": "https://www.nytimes.com/2026/11/02/arts/television/streaming-costs-readers.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/02/science/animals-grief-death.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     }
   ]
