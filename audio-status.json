@@ -3,19 +3,27 @@
   "published": 0,
   "failures": [
     {
-      "url": "https://www.nytimes.com/2026/11/02/us/politics/noncitizen-voters-green-cards.html",
+      "url": "https://www.nytimes.com/2026/11/03/business/saudi-aramco-q3-earnings.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/02/opinion/justice-kagan-speak-truth.html",
+      "url": "https://www.nytimes.com/2026/11/03/arts/television/jimmy-kimmel-trump-midterms.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/02/world/europe/russia-polish-political-turmoil.html",
+      "url": "https://www.nytimes.com/2026/11/03/opinion/lula-brazil-latin-america-trump.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/02/well/kratom-wellness-marketing-addiction.html",
+      "url": "https://www.nytimes.com/2026/11/02/us/politics/midterms-2020-election-justice-department.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/02/opinion/trump-midterms-history.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/02/us/politics/trump-reflecting-pool-midterms.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
@@ -23,15 +31,7 @@
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/02/opinion/us-china-ai-manufacturing-exports-weapons.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/02/arts/television/streaming-costs-readers.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/02/science/animals-grief-death.html",
+      "url": "https://www.nytimes.com/2026/11/02/business/economy/eeoc-trump-administration-pregnancy-fertility-abortion.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     }
   ]
