@@ -3,35 +3,35 @@
   "published": 0,
   "failures": [
     {
-      "url": "https://www.nytimes.com/2026/11/04/business/midterm-elections-stock-market.html",
+      "url": "https://www.nytimes.com/2026/11/04/us/golden-state-valkyries-san-francisco-parade.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/04/opinion/midterms-democrats-senate-house-results.html",
+      "url": "https://www.nytimes.com/2026/11/04/us/politics/trump-midterms-losses-republicans.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/04/business/musk-elections-spacex-tesla-stocks.html",
+      "url": "https://www.nytimes.com/2026/11/04/opinion/ezra-klein-podcast-aaron-retica-midterm-2026.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/04/style/we-rate-dogs-ai.html",
+      "url": "https://www.nytimes.com/2026/11/04/us/politics/trump-new-role-lame-duck.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/04/world/europe/chinese-restaurant-edinburgh-viral-social-media.html",
+      "url": "https://www.nytimes.com/2026/11/04/health/arbitrators-medical-bills.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/04/arts/television/jimmy-kimmel-midterm-election-blue-wave.html",
+      "url": "https://www.nytimes.com/2026/11/04/briefing/midterm-election-results-congress-power.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/video/opinion/100000011257707/the-beginning-of-the-end-of-trumpism.html",
-      "error": "HTTP 200; Content-Type: text/html; charset=utf-8; final host: www.nytimes.com\nReceived 563799 approximate HTML bytes\nAudio source discovery failed: No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article"
+      "url": "https://www.nytimes.com/2026/11/04/us/trump-midterms-ballroom.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/04/business/cvs-health-split.html",
+      "url": "https://www.nytimes.com/2026/11/04/nyregion/pied-a-terre-mamdani-appeal-win-home-tax.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     }
   ]
