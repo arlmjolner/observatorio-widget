@@ -3,35 +3,35 @@
   "published": 0,
   "failures": [
     {
-      "url": "https://www.nytimes.com/2026/11/05/us/election-deniers-midterms-trump.html",
+      "url": "https://www.nytimes.com/2026/11/06/business/tesla-cybertruck-production.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/05/style/james-talarico-cowboy-boots-texas-senate-race.html",
+      "url": "https://www.nytimes.com/2026/11/06/opinion/trump-tariffs-economy.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/05/nyregion/brooklyn-fire-sunset-park.html",
+      "url": "https://www.nytimes.com/2026/11/06/us/houston-mayor-john-whitmire-immigration-ice-cooperation.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/05/us/politics/harmeet-dhillon-resigns-doj-civil-rights-unit.html",
+      "url": "https://www.nytimes.com/2026/11/06/business/economy/economy-jobs-unemployment.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/05/us/politics/trump-oval-office-national-monument.html",
+      "url": "https://www.nytimes.com/2026/11/06/opinion/jd-vance-midterms.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/05/us/mississippi-senate-colom-hydesmith-votes.html",
+      "url": "https://www.nytimes.com/2026/11/06/briefing/the-changing-politics-of-identity.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/05/opinion/elon-musk-midterms-trump-results.html",
+      "url": "https://www.nytimes.com/2026/11/06/podcasts/the-daily/chuck-schumer-senate-democrats.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/05/us/politics/hegseth-video-midterms-trump.html",
+      "url": "https://www.nytimes.com/2026/11/06/business/global-stocks-markets-tech-ai.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     }
   ]
