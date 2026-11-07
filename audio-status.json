@@ -1,37 +1,33 @@
 {
-  "attempted": 8,
+  "attempted": 7,
   "published": 0,
   "failures": [
     {
-      "url": "https://www.nytimes.com/2026/11/06/us/southern-democrats-georgia-north-carolina.html",
+      "url": "https://www.nytimes.com/2026/11/07/upshot/senators-midterm-elections-age.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/06/us/politics/homeless-population-drop.html",
+      "url": "https://www.nytimes.com/2026/11/07/world/middleeast/israel-eisenkot-government.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/06/nyregion/cornell-no-confidence-vote.html",
+      "url": "https://www.nytimes.com/2026/11/07/us/politics/stephen-miller-midterm-elections.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/06/nyregion/nyc-fire-deaths.html",
+      "url": "https://www.nytimes.com/2026/11/07/science/heart-drugs-failed-novartis-novo-nordisk.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/06/us/politics/susie-wiles-trump-women.html",
+      "url": "https://www.nytimes.com/2026/11/07/us/turning-point-arizona-midterms.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/06/us/politics/hegseth-trump-iran-war.html",
+      "url": "https://www.nytimes.com/2026/11/06/us/politics/trump-construction-projects-washington.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/06/us/politics/jason-reding-quinones-resigns.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/06/opinion/jd-vance-midterms.html",
+      "url": "https://www.nytimes.com/2026/11/07/us/politics/schumer-election-democrats-senate.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     }
   ]
