@@ -3,7 +3,11 @@
   "published": 0,
   "failures": [
     {
-      "url": "https://www.nytimes.com/2026/11/06/us/politics/susie-wiles-chief-of-staff-trump.html",
+      "url": "https://www.nytimes.com/2026/11/06/us/southern-democrats-georgia-north-carolina.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/06/us/politics/homeless-population-drop.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
@@ -19,19 +23,15 @@
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/06/briefing/stephen-miller-trump.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/06/us/southern-democrats-georgia-north-carolina.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
-    },
-    {
       "url": "https://www.nytimes.com/2026/11/06/us/politics/hegseth-trump-iran-war.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
       "url": "https://www.nytimes.com/2026/11/06/us/politics/jason-reding-quinones-resigns.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/06/opinion/jd-vance-midterms.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     }
   ]
