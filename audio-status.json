@@ -3,36 +3,36 @@
   "published": 0,
   "failures": [
     {
-      "url": "https://www.nytimes.com/2026/11/11/us/elections/scott-colom-mississippi-black-senators.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+      "url": "https://www.nytimes.com/2026/11/12/nyregion/building-collapse-brooklyn-deaths-flatbush-nyc.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/nyregion/building-collapse-brooklyn-deaths-flatbush-nyc.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-bbc4c0df-ea42-5aab-8e18-8f7e3d6b70cb/job-1794512332156/article-bbc4c0df-ea42-5aab-8e18-8f7e3d6b70cb-job-1794512332156.mp3', '--title', 'What to Know About the Deadly Building Collapse in Brooklyn', '--rights-confirmed']' returned non-zero ex"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/11/climate/ss-united-states-ship-sinking-artificial-reef-florida.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+      "url": "https://www.nytimes.com/2026/11/12/us/politics/trump-vance-iran-fraud.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/us/politics/trump-vance-iran-fraud.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-b0a68cb1-5a64-51c0-bbd4-1d637b912c70/job-1794512331719/article-b0a68cb1-5a64-51c0-bbd4-1d637b912c70-job-1794512331719.mp3', '--title', 'Trump Says He\u2019s Pulling Vance Off Iran Talks to Focus on Fraud Campaign', '--rights-confirmed']' returned non-zero exit status"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+      "url": "https://www.nytimes.com/2026/11/12/business/nvidia-megaspeed-alice-huang.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/business/nvidia-megaspeed-alice-huang.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-22fcace2-3dd7-58e0-8921-d4a7b2836140/job-1794511196637/article-22fcace2-3dd7-58e0-8921-d4a7b2836140-job-1794511196637.mp3', '--title', 'Singapore Says US Not Helpful on Investigation Into Alice Huang and Megaspeed', '--rights-confirmed']' returned non-zero ex"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/11/insider/ss-united-states-destin-florida-memories.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+      "url": "https://www.nytimes.com/2026/11/12/business/nvidia-colette-kress-jensen-huang.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/business/nvidia-colette-kress-jensen-huang.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-92842d2a-8d1f-512d-aee4-66c0a3b8daf6/job-1794509668252/article-92842d2a-8d1f-512d-aee4-66c0a3b8daf6-job-1794509668252.mp3', '--title', 'Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?', '--rights-confirmed']' returned non-zero exit s"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/11/business/nvidia-stock-jensen-huang-ceo.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+      "url": "https://www.nytimes.com/2026/11/12/us/politics/rfk-jr-democrats-impeach.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/us/politics/rfk-jr-democrats-impeach.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-6320091d-b669-55b1-888f-80a7c1d9a05e/job-1794507491891/article-6320091d-b669-55b1-888f-80a7c1d9a05e-job-1794507491891.mp3', '--title', 'Kennedy\u2019s Future: Will Democrats Try to Impeach Him, or Actually Work With Him?', '--rights-confirmed']' returned non-zero e"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/11/world/europe/pope-leo-peru-visit-lima.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+      "url": "https://www.nytimes.com/2026/11/12/business/nvidia-stock-price-jensen-huang-ceo-affair.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/business/nvidia-stock-price-jensen-huang-ceo-affair.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-58048ee3-9e6c-535f-bc09-b72feed88aca/job-1794506951964/article-58048ee3-9e6c-535f-bc09-b72feed88aca-job-1794506951964.mp3', '--title', 'Nvidia Stock Plunges After Jensen Huang Resigns as CEO', '--rights-confirmed']' returned non-zero exit status"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+      "url": "https://www.nytimes.com/2026/11/12/climate/democrats-oversight-committees-letters.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/climate/democrats-oversight-committees-letters.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-97f2717a-cca7-5f83-8147-4490a625ad13/job-1794506844525/article-97f2717a-cca7-5f83-8147-4490a625ad13-job-1794506844525.mp3', '--title', 'Democrats Put Targets on Notice as Trump Oversight Takes Shape', '--rights-confirmed']' returned non-zero exit sta"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/11/us/david-brouillette-ice-maine-shooting-anti-immigrant-hatred.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+      "url": "https://www.nytimes.com/2026/11/12/us/politics/democrats-majorities-economic-populism.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/us/politics/democrats-majorities-economic-populism.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-3dc46acc-c70f-5574-bb85-db5e3d652abe/job-1794506420135/article-3dc46acc-c70f-5574-bb85-db5e3d652abe-job-1794506420135.mp3', '--title', 'Democrats Unite on Economic Populism After Midterm Victories', '--rights-confirmed']' returned non-zero exit s"
     }
   ]
 }
