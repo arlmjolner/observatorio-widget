@@ -3,36 +3,36 @@
   "published": 0,
   "failures": [
     {
-      "url": "https://www.nytimes.com/2026/11/12/nyregion/building-collapse-brooklyn-deaths-flatbush-nyc.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/nyregion/building-collapse-brooklyn-deaths-flatbush-nyc.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-bbc4c0df-ea42-5aab-8e18-8f7e3d6b70cb/job-1794512332156/article-bbc4c0df-ea42-5aab-8e18-8f7e3d6b70cb-job-1794512332156.mp3', '--title', 'What to Know About the Deadly Building Collapse in Brooklyn', '--rights-confirmed']' returned non-zero ex"
+      "url": "https://www.nytimes.com/2026/11/12/us/politics/trump-jensen-huang-nvidia.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/us/politics/trump-jensen-huang-nvidia.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-0bfd7406-0959-527e-9078-4641bfb58b62/job-1794529524575/article-0bfd7406-0959-527e-9078-4641bfb58b62-job-1794529524575.mp3', '--title', 'Trump Had Urged Nvidia\u2019s Jensen Huang to Fight for His Job', '--rights-confirmed']' returned non-zero exit status 1."
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/12/us/brooklyn-building-collapse-deaths.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/us/brooklyn-building-collapse-deaths.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-7e1a129c-fea9-5375-b30e-2861c9af4ed0/job-1794532278707/article-7e1a129c-fea9-5375-b30e-2861c9af4ed0-job-1794532278707.mp3', '--title', 'Rescue Ends in Brooklyn After 8 Die in Building Collapse', '--rights-confirmed']' returned non-zero exit status 1."
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/12/business/microsoft-outlook-down-outage-email.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/business/microsoft-outlook-down-outage-email.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-e451d358-bb68-57af-9c29-9ec4ad085b75/job-1794544112225/article-e451d358-bb68-57af-9c29-9ec4ad085b75-job-1794544112225.mp3', '--title', 'Outlook, Teams and More Microsoft Programs Disrupted by Outage', '--rights-confirmed']' returned non-zero exit statu"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/12/opinion/jensen-huang-nvidia.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/opinion/jensen-huang-nvidia.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-7d9697df-9fa1-5c32-958d-4f521a635533/job-1794526016889/article-7d9697df-9fa1-5c32-958d-4f521a635533-job-1794526016889.mp3', '--title', 'I Wrote Jensen Huang\u2019s Biography. Here\u2019s What Led to His Downfall.', '--rights-confirmed']' returned non-zero exit status 1."
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/12/briefing/nvidia-ceo-resigns-brooklyn-collapse.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/briefing/nvidia-ceo-resigns-brooklyn-collapse.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-d6e408c5-dd43-566c-9480-dee48a4777d6/job-1794523393925/article-d6e408c5-dd43-566c-9480-dee48a4777d6-job-1794523393925.mp3', '--title', 'An A.I. Titan Resigns', '--rights-confirmed']' returned non-zero exit status 1."
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/12/sports/paul-lepage-maine-house-race.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/sports/paul-lepage-maine-house-race.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-f9989e0c-0d3d-5eca-8b9a-ae35af7ea70d/job-1794512964698/article-f9989e0c-0d3d-5eca-8b9a-ae35af7ea70d-job-1794512964698.mp3', '--title', 'Paul LePage, Ex-Governor of Maine, Flips House Seat to Republicans', '--rights-confirmed']' returned non-zero exit status 1."
     },
     {
       "url": "https://www.nytimes.com/2026/11/12/us/politics/trump-vance-iran-fraud.html",
       "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/us/politics/trump-vance-iran-fraud.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-b0a68cb1-5a64-51c0-bbd4-1d637b912c70/job-1794512331719/article-b0a68cb1-5a64-51c0-bbd4-1d637b912c70-job-1794512331719.mp3', '--title', 'Trump Says He\u2019s Pulling Vance Off Iran Talks to Focus on Fraud Campaign', '--rights-confirmed']' returned non-zero exit status"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/12/business/nvidia-megaspeed-alice-huang.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/business/nvidia-megaspeed-alice-huang.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-22fcace2-3dd7-58e0-8921-d4a7b2836140/job-1794511196637/article-22fcace2-3dd7-58e0-8921-d4a7b2836140-job-1794511196637.mp3', '--title', 'Singapore Says US Not Helpful on Investigation Into Alice Huang and Megaspeed', '--rights-confirmed']' returned non-zero ex"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/12/business/nvidia-colette-kress-jensen-huang.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/business/nvidia-colette-kress-jensen-huang.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-92842d2a-8d1f-512d-aee4-66c0a3b8daf6/job-1794509668252/article-92842d2a-8d1f-512d-aee4-66c0a3b8daf6-job-1794509668252.mp3', '--title', 'Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?', '--rights-confirmed']' returned non-zero exit s"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/12/us/politics/rfk-jr-democrats-impeach.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/us/politics/rfk-jr-democrats-impeach.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-6320091d-b669-55b1-888f-80a7c1d9a05e/job-1794507491891/article-6320091d-b669-55b1-888f-80a7c1d9a05e-job-1794507491891.mp3', '--title', 'Kennedy\u2019s Future: Will Democrats Try to Impeach Him, or Actually Work With Him?', '--rights-confirmed']' returned non-zero e"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/12/business/nvidia-stock-price-jensen-huang-ceo-affair.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/business/nvidia-stock-price-jensen-huang-ceo-affair.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-58048ee3-9e6c-535f-bc09-b72feed88aca/job-1794506951964/article-58048ee3-9e6c-535f-bc09-b72feed88aca-job-1794506951964.mp3', '--title', 'Nvidia Stock Plunges After Jensen Huang Resigns as CEO', '--rights-confirmed']' returned non-zero exit status"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/12/climate/democrats-oversight-committees-letters.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/climate/democrats-oversight-committees-letters.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-97f2717a-cca7-5f83-8147-4490a625ad13/job-1794506844525/article-97f2717a-cca7-5f83-8147-4490a625ad13-job-1794506844525.mp3', '--title', 'Democrats Put Targets on Notice as Trump Oversight Takes Shape', '--rights-confirmed']' returned non-zero exit sta"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/12/us/politics/democrats-majorities-economic-populism.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/us/politics/democrats-majorities-economic-populism.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-3dc46acc-c70f-5574-bb85-db5e3d652abe/job-1794506420135/article-3dc46acc-c70f-5574-bb85-db5e3d652abe-job-1794506420135.mp3', '--title', 'Democrats Unite on Economic Populism After Midterm Victories', '--rights-confirmed']' returned non-zero exit s"
+      "url": "https://www.nytimes.com/2026/11/12/magazine/welcome-in-retail.html",
+      "error": "HTTP 200; Content-Type: text/html; charset=utf-8; final host: www.nytimes.com\nReceived 305066 approximate HTML bytes\nAudio source discovery failed: No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article"
     }
   ]
 }
