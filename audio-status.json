@@ -3,36 +3,36 @@
   "published": 0,
   "failures": [
     {
-      "url": "https://www.nytimes.com/2026/11/12/us/politics/trump-jensen-huang-nvidia.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/us/politics/trump-jensen-huang-nvidia.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-0bfd7406-0959-527e-9078-4641bfb58b62/job-1794529524575/article-0bfd7406-0959-527e-9078-4641bfb58b62-job-1794529524575.mp3', '--title', 'Trump Had Urged Nvidia\u2019s Jensen Huang to Fight for His Job', '--rights-confirmed']' returned non-zero exit status 1."
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/12/us/brooklyn-building-collapse-deaths.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/us/brooklyn-building-collapse-deaths.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-7e1a129c-fea9-5375-b30e-2861c9af4ed0/job-1794532278707/article-7e1a129c-fea9-5375-b30e-2861c9af4ed0-job-1794532278707.mp3', '--title', 'Rescue Ends in Brooklyn After 8 Die in Building Collapse', '--rights-confirmed']' returned non-zero exit status 1."
-    },
-    {
       "url": "https://www.nytimes.com/2026/11/12/business/microsoft-outlook-down-outage-email.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/business/microsoft-outlook-down-outage-email.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-e451d358-bb68-57af-9c29-9ec4ad085b75/job-1794544112225/article-e451d358-bb68-57af-9c29-9ec4ad085b75-job-1794544112225.mp3', '--title', 'Outlook, Teams and More Microsoft Programs Disrupted by Outage', '--rights-confirmed']' returned non-zero exit statu"
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/business/microsoft-outlook-down-outage-email.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-e451d358-bb68-57af-9c29-9ec4ad085b75/job-1794593145378/article-e451d358-bb68-57af-9c29-9ec4ad085b75-job-1794593145378.mp3', '--title', 'Microsoft Races to Fix Outage Disrupting Outlook for a Second Day', '--rights-confirmed']' returned non-zero exit st"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/12/opinion/jensen-huang-nvidia.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/opinion/jensen-huang-nvidia.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-7d9697df-9fa1-5c32-958d-4f521a635533/job-1794526016889/article-7d9697df-9fa1-5c32-958d-4f521a635533-job-1794526016889.mp3', '--title', 'I Wrote Jensen Huang\u2019s Biography. Here\u2019s What Led to His Downfall.', '--rights-confirmed']' returned non-zero exit status 1."
+      "url": "https://www.nytimes.com/2026/11/13/nyregion/brooklyn-flatbus-building-collapse-investigation.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/12/briefing/nvidia-ceo-resigns-brooklyn-collapse.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/briefing/nvidia-ceo-resigns-brooklyn-collapse.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-d6e408c5-dd43-566c-9480-dee48a4777d6/job-1794523393925/article-d6e408c5-dd43-566c-9480-dee48a4777d6-job-1794523393925.mp3', '--title', 'An A.I. Titan Resigns', '--rights-confirmed']' returned non-zero exit status 1."
+      "url": "https://www.nytimes.com/2026/11/12/us/politics/lutnick-nvidia-commerce-china-chips.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/12/sports/paul-lepage-maine-house-race.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/sports/paul-lepage-maine-house-race.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-f9989e0c-0d3d-5eca-8b9a-ae35af7ea70d/job-1794512964698/article-f9989e0c-0d3d-5eca-8b9a-ae35af7ea70d-job-1794512964698.mp3', '--title', 'Paul LePage, Ex-Governor of Maine, Flips House Seat to Republicans', '--rights-confirmed']' returned non-zero exit status 1."
+      "url": "https://www.nytimes.com/2026/11/13/briefing/jensen-huang.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/12/us/politics/trump-vance-iran-fraud.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/us/politics/trump-vance-iran-fraud.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-b0a68cb1-5a64-51c0-bbd4-1d637b912c70/job-1794512331719/article-b0a68cb1-5a64-51c0-bbd4-1d637b912c70-job-1794512331719.mp3', '--title', 'Trump Says He\u2019s Pulling Vance Off Iran Talks to Focus on Fraud Campaign', '--rights-confirmed']' returned non-zero exit status"
+      "url": "https://www.nytimes.com/2026/11/13/well/move/important-muscles-longevity-advice.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/12/magazine/welcome-in-retail.html",
-      "error": "HTTP 200; Content-Type: text/html; charset=utf-8; final host: www.nytimes.com\nReceived 305066 approximate HTML bytes\nAudio source discovery failed: No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article"
+      "url": "https://www.nytimes.com/2026/11/13/world/americas/stephen-miller-mexico-immigration.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/12/us/politics/van-hollen-schumer-democrats-majority-leader.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/12/us/politics/trump-jensen-huang-nvidia.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     }
   ]
 }
