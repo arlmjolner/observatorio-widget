@@ -3,35 +3,35 @@
   "published": 0,
   "failures": [
     {
-      "url": "https://www.nytimes.com/2026/11/12/business/microsoft-outlook-down-outage-email.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/business/microsoft-outlook-down-outage-email.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-e451d358-bb68-57af-9c29-9ec4ad085b75/job-1794593145378/article-e451d358-bb68-57af-9c29-9ec4ad085b75-job-1794593145378.mp3', '--title', 'Microsoft Races to Fix Outage Disrupting Outlook for a Second Day', '--rights-confirmed']' returned non-zero exit st"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/13/nyregion/brooklyn-flatbus-building-collapse-investigation.html",
+      "url": "https://www.nytimes.com/2026/11/13/us/airports-stranded-travelers.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/12/us/politics/lutnick-nvidia-commerce-china-chips.html",
+      "url": "https://www.nytimes.com/2026/11/13/us/elections/scott-colom-senate-upset-history-mississippi.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/13/briefing/jensen-huang.html",
+      "url": "https://www.nytimes.com/2026/11/13/us/politics/democrats-senate-leader.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/13/well/move/important-muscles-longevity-advice.html",
+      "url": "https://www.nytimes.com/2026/11/09/us/lauren-boebert-colorado-house-election.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/13/world/americas/stephen-miller-mexico-immigration.html",
+      "url": "https://www.nytimes.com/2026/11/13/technology/microsoft-outage-what-to-know.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/12/us/politics/van-hollen-schumer-democrats-majority-leader.html",
+      "url": "https://www.nytimes.com/2026/11/13/us/politics/russia-demand-nato-ukraine.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/12/us/politics/trump-jensen-huang-nvidia.html",
+      "url": "https://www.nytimes.com/2026/11/13/business/microsoft-outage.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/13/us/june-carpenter-dead.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     }
   ]
