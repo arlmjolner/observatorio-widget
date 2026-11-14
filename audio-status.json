@@ -1,38 +1,34 @@
 {
-  "attempted": 8,
+  "attempted": 7,
   "published": 0,
   "failures": [
     {
-      "url": "https://www.nytimes.com/2026/11/13/us/faa-ground-stop-flights-what-to-know.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/13/us/faa-ground-stop-flights-what-to-know.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-69b18c10-c753-5202-89ce-80fb7bca7421/job-1794668700566/article-69b18c10-c753-5202-89ce-80fb7bca7421-job-1794668700566.mp3', '--title', 'What to Know About Friday\u2019s Nationwide Ground Stop', '--rights-confirmed']' returned non-zero exit status 1."
+      "url": "https://www.nytimes.com/2026/11/14/us/politics/ground-stop-air-traffic-faa.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/14/us/politics/ground-stop-air-traffic-faa.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-3c6361d5-47ff-5b44-89a8-ce87eb113d12/job-1794693586231/article-3c6361d5-47ff-5b44-89a8-ce87eb113d12-job-1794693586231.mp3', '--title', 'Ground Stop Highlights Chronic Vulnerabilities in Air Traffic System', '--rights-confirmed']' returned non-zero exit stat"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/14/nyregion/building-collapse-brooklyn-immigrants.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/14/nyregion/building-collapse-brooklyn-immigrants.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-988d46ac-8419-5911-ac72-5133152046c7/job-1794667748156/article-988d46ac-8419-5911-ac72-5133152046c7-job-1794667748156.mp3', '--title', 'Brooklyn Building Collapse Tragedy Devastates Immigrant Families', '--rights-confirmed']' returned non-zero exit s"
+      "url": "https://www.nytimes.com/2026/11/14/technology/silicon-valley-nvidia-jensen-huang.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/14/technology/silicon-valley-nvidia-jensen-huang.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-9a22f2b8-72a3-5727-9f69-a6ba02517dfb/job-1794689859100/article-9a22f2b8-72a3-5727-9f69-a6ba02517dfb-job-1794689859100.mp3', '--title', 'Tech Leaders Rally Behind Jensen Huang', '--rights-confirmed']' returned non-zero exit status 1."
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/14/us/faa-groundstop-flights-restarting.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/14/us/faa-groundstop-flights-restarting.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-9c978915-fa61-59a8-8505-4e1df3480ad4/job-1794678431493/article-9c978915-fa61-59a8-8505-4e1df3480ad4-job-1794678431493.mp3', '--title', 'Here\u2019s Why It Could Take Days for Flights to Return to Normal', '--rights-confirmed']' returned non-zero exit status 1."
     },
     {
       "url": "https://www.nytimes.com/2026/11/14/opinion/huang-trump-lutnick-bessent.html",
       "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/14/opinion/huang-trump-lutnick-bessent.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-c0239d94-0de4-56bc-b7cb-7cffd8bc2cb1/job-1794657634613/article-c0239d94-0de4-56bc-b7cb-7cffd8bc2cb1-job-1794657634613.mp3', '--title', 'Goodbye, Mr. Chips', '--rights-confirmed']' returned non-zero exit status 1."
     },
     {
-      "url": "https://www.nytimes.com/2026/11/14/opinion/midterm-elections-democrats-republicans-whats-next.html",
-      "error": "HTTP 200; Content-Type: text/html; charset=utf-8; final host: www.nytimes.com\nReceived 502440 approximate HTML bytes\nAudio source discovery failed: No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/14/technology/jensen-huang-nvidia-scandal-silicon-valley.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/14/technology/jensen-huang-nvidia-scandal-silicon-valley.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-e88038cb-bdfd-560f-a5a9-8a894cf9e8a6/job-1794657380510/article-e88038cb-bdfd-560f-a5a9-8a894cf9e8a6-job-1794657380510.mp3', '--title', 'The Jensen Huang Scandal Has Shocked Even Scandal-Prone Silicon Valley', '--rights-confirmed']' returned no"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/14/briefing/forever-in-bluejeans.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/14/briefing/forever-in-bluejeans.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-ca7bc40e-3827-5db7-8b10-cceb6ac4fd75/job-1794655378290/article-ca7bc40e-3827-5db7-8b10-cceb6ac4fd75-job-1794655378290.mp3', '--title', 'Forever in Bluejeans', '--rights-confirmed']' returned non-zero exit status 1."
-    },
-    {
       "url": "https://www.nytimes.com/2026/11/14/us/politics/house-democrats-affordability-costs-budget.html",
       "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/14/us/politics/house-democrats-affordability-costs-budget.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-0752cd69-96d4-51c5-8a88-581622d74945/job-1794650510221/article-0752cd69-96d4-51c5-8a88-581622d74945-job-1794650510221.mp3', '--title', 'Top Democrat Eyes Filibuster-Proof Budget Bill to Unlock Affordability Agenda', '--rights-confirmed']' ret"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/13/upshot/gerrymanders-midterm-elections-republicans.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/13/upshot/gerrymanders-midterm-elections-republicans.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-6acc7ab8-039b-5bc8-922e-cd1449a7732e/job-1794619148365/article-6acc7ab8-039b-5bc8-922e-cd1449a7732e-job-1794619148365.mp3', '--title', 'Did the Redistricting Wars Backfire on Republicans? In a Word, No.', '--rights-confirmed']' returned non-zero e"
+      "url": "https://www.nytimes.com/2026/11/12/opinion/dementia-memory-alaska-wilderness-sounds.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/12/opinion/dementia-memory-alaska-wilderness-sounds.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-e4d4aeb1-ddd1-5bf8-b6e2-c5ac37feb452/job-1794525987961/article-e4d4aeb1-ddd1-5bf8-b6e2-c5ac37feb452-job-1794525987961.mp3', '--title', '\u2018Listen\u2019: My Mother Has Dementia. These Sounds Help Bring Her Back.', '--rights-confirmed']' returned non-zero e"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/13/us/university-north-carolina-science-research-cuts-trump.html",
+      "error": "HTTP 200; Content-Type: text/html; charset=utf-8; final host: www.nytimes.com\nReceived 492199 approximate HTML bytes\nAudio source discovery failed: No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article"
     }
   ]
 }
