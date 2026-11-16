@@ -3,36 +3,36 @@
   "published": 0,
   "failures": [
     {
-      "url": "https://www.nytimes.com/2026/11/15/us/faa-groundstop-flights-status-delays-canceled.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/15/us/faa-groundstop-flights-status-delays-canceled.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-f29f350a-cb6a-53a9-91e3-26ac35bc4fdd/job-1794766639051/article-f29f350a-cb6a-53a9-91e3-26ac35bc4fdd-job-1794766639051.mp3', '--title', 'Flight Delays and Cancellations Persist as System Recovers From Ground Stop', '--rights-confirmed']' returned no"
+      "url": "https://www.nytimes.com/2026/11/15/world/americas/felix-gallardo-mexico-dead.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/15/world/americas/felix-gallardo-mexico-dead.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-89fcf299-692c-5187-a93d-846f525b2644/job-1794794970986/article-89fcf299-692c-5187-a93d-846f525b2644-job-1794794970986.mp3', '--title', 'Miguel \u00c1ngel F\u00e9lix Gallardo, Mexican Drug Lord, Dies in Prison', '--rights-confirmed']' returned non-zero exit status 1"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/15/us/sean-duffy-ground-stop-trump-faa.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/15/us/sean-duffy-ground-stop-trump-faa.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-35b12d80-157e-5620-bbec-1e665ef6cc04/job-1794765982037/article-35b12d80-157e-5620-bbec-1e665ef6cc04-job-1794765982037.mp3', '--title', 'Sean Duffy Offers New Details on How One Fix Spiraled Into Nationwide Ground Stop', '--rights-confirmed']' returned non-zero "
+      "url": "https://www.nytimes.com/2026/11/15/opinion/gop-republican-party-midterms.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/15/opinion/gop-republican-party-midterms.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-e334b745-6694-53b9-bfe1-b1efd8271ec7/job-1794791879776/article-e334b745-6694-53b9-bfe1-b1efd8271ec7-job-1794791879776.mp3', '--title', 'A Republican Party That\u2019s Learned Nothing', '--rights-confirmed']' returned non-zero exit status 1."
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/15/nyregion/building-collapse-cat-rescue.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/15/nyregion/building-collapse-cat-rescue.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-877a348d-c986-5b7f-88bd-0a5a7fb5f61e/job-1794789723345/article-877a348d-c986-5b7f-88bd-0a5a7fb5f61e-job-1794789723345.mp3', '--title', 'Zariah, 13, and Her Cat Are Reunited After Building Collapse', '--rights-confirmed']' returned non-zero exit status 1."
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/15/business/megaspeed-alice-huang-nvidia-china.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/15/business/megaspeed-alice-huang-nvidia-china.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-65f60396-f176-5edd-a30f-53ecacdf34c0/job-1794808927668/article-65f60396-f176-5edd-a30f-53ecacdf34c0-job-1794808927668.mp3', '--title', 'Megaspeed Says Alice Huang Left Company in August 2025', '--rights-confirmed']' returned non-zero exit status 1."
     },
     {
       "url": "https://www.nytimes.com/2026/11/15/us/politics/van-hollen-schumer-democrats-majority-leader.html",
       "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/15/us/politics/van-hollen-schumer-democrats-majority-leader.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-b6a79d62-5275-5569-954a-aac28dcb097c/job-1794768625440/article-b6a79d62-5275-5569-954a-aac28dcb097c-job-1794768625440.mp3', '--title', 'Chris Van Hollen Says His Majority Leader Challenge to Chuck Schumer Is Gaining Support', '--rights-conf"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/15/us/politics/federal-employees-democratic-congress-lifeline.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/15/us/politics/federal-employees-democratic-congress-lifeline.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-01c8eab7-514d-5635-906d-e00cd5d9d774/job-1794736863644/article-01c8eab7-514d-5635-906d-e00cd5d9d774-job-1794736863644.mp3', '--title', 'Embattled Federal Employees Look to a Democratic Congress for a Lifeline', '--rights-confirmed']' retu"
+      "url": "https://www.nytimes.com/2026/11/15/us/politics/nvidia-trump-huang-china-xi.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/15/us/politics/nvidia-trump-huang-china-xi.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-d1b63f1d-acdc-5fda-b085-3bc5d8152808/job-1794783282403/article-d1b63f1d-acdc-5fda-b085-3bc5d8152808-job-1794783282403.mp3', '--title', 'Nvidia Fallout Looms Over Trump-Xi Meeting', '--rights-confirmed']' returned non-zero exit status 1."
     },
     {
-      "url": "https://www.nytimes.com/2026/11/15/world/europe/ron-arad-missing-israel-iran-asgari-hunt.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/15/world/europe/ron-arad-missing-israel-iran-asgari-hunt.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-0d569f79-9bf3-5fce-9ccf-2cd4833196bb/job-1794768484218/article-0d569f79-9bf3-5fce-9ccf-2cd4833196bb-job-1794768484218.mp3', '--title', 'Israel Kidnapped Iranian Generals in Hunt for Ron Arad', '--rights-confirmed']' returned non-zero exit stat"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/15/world/middleeast/bahrain-iran-israel.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/15/world/middleeast/bahrain-iran-israel.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-cf167803-6022-58a5-894c-e6b3d740cbca/job-1794758124233/article-cf167803-6022-58a5-894c-e6b3d740cbca-job-1794758124233.mp3', '--title', 'Iran Attacks Bahrain for the Second Time in Days', '--rights-confirmed']' returned non-zero exit status 1."
+      "url": "https://www.nytimes.com/2026/11/15/us/faa-groundstop-flights-status-delays-canceled.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/15/us/faa-groundstop-flights-status-delays-canceled.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-f29f350a-cb6a-53a9-91e3-26ac35bc4fdd/job-1794780434746/article-f29f350a-cb6a-53a9-91e3-26ac35bc4fdd-job-1794780434746.mp3', '--title', 'Flight Delays and Cancellations Persist as System Recovers From Ground Stop', '--rights-confirmed']' returned no"
     },
     {
       "url": "https://www.nytimes.com/2026/11/15/world/middleeast/saudi-houthis-yemen-red-sea.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/15/world/middleeast/saudi-houthis-yemen-red-sea.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-4ca8b0b1-c128-541a-8c94-e91ce9ce0af2/job-1794757345900/article-4ca8b0b1-c128-541a-8c94-e91ce9ce0af2-job-1794757345900.mp3', '--title', 'Saudi-Backed Forces in Yemen Retreat From Red Sea as Houthis Advance', '--rights-confirmed']' returned non-zero exit"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/15/briefing/sorority-influencers.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/15/briefing/sorority-influencers.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-48a08a55-1504-5b77-ab97-8149ae32574d/job-1794745721875/article-48a08a55-1504-5b77-ab97-8149ae32574d-job-1794745721875.mp3', '--title', 'TikTok U', '--rights-confirmed']' returned non-zero exit status 1."
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/15/world/middleeast/saudi-houthis-yemen-red-sea.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-4ca8b0b1-c128-541a-8c94-e91ce9ce0af2/job-1794777993064/article-4ca8b0b1-c128-541a-8c94-e91ce9ce0af2-job-1794777993064.mp3', '--title', 'Saudi-Backed Forces Retreat in Yemen, Leaving Key Strait in Houthi Control', '--rights-confirmed']' returned non-zer"
     }
   ]
 }
