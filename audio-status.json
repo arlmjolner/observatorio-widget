@@ -1,38 +1,26 @@
 {
-  "attempted": 8,
+  "attempted": 5,
   "published": 0,
   "failures": [
     {
-      "url": "https://www.nytimes.com/2026/11/16/us/bank-outages-down.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/16/us/bank-outages-down.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-87316a80-d42c-5644-8db9-5ec20af5409f/job-1794866649477/article-87316a80-d42c-5644-8db9-5ec20af5409f-job-1794866649477.mp3', '--title', 'Chase Bank Transactions Disrupted by \u2018Technical Issue\u2019 Amid Outage Reports', '--rights-confirmed']' returned non-zero exit status 1."
+      "url": "https://www.nytimes.com/2026/11/16/us/politics/trump-china-ai-chip-policy.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/16/us/politics/trump-china-ai-chip-policy.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-ff86f4d6-052a-559a-9b99-7358ae8c389c/job-1794887344959/article-ff86f4d6-052a-559a-9b99-7358ae8c389c-job-1794887344959.mp3', '--title', 'Trump Administration Divide on China Policy Breaks Into Public View', '--rights-confirmed']' returned non-zero exit status"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/16/arts/music/grammy-nominee-list-2027.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/16/arts/music/grammy-nominee-list-2027.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-dae68ff7-b870-5b2d-afaa-4952fb830318/job-1794865345086/article-dae68ff7-b870-5b2d-afaa-4952fb830318-job-1794865345086.mp3', '--title', 'Grammy Nominations 2027: See the Full List', '--rights-confirmed']' returned non-zero exit status 1."
+      "url": "https://www.nytimes.com/2026/11/16/opinion/nvidia-trump-jensen-huang-lutnick.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/16/opinion/nvidia-trump-jensen-huang-lutnick.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-36fb0544-7e01-55ff-a606-5c8822ebd4ed/job-1794889373217/article-36fb0544-7e01-55ff-a606-5c8822ebd4ed-job-1794889373217.mp3', '--title', 'The Enraging Hypocrisy at the Heart of the Nvidia Scandal', '--rights-confirmed']' returned non-zero exit status 1."
     },
     {
-      "url": "https://www.nytimes.com/2026/11/16/business/economy/warsh-ai-economy.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/16/business/economy/warsh-ai-economy.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-d2ce008f-5d94-56e3-be1c-1c86232ef02c/job-1794862872516/article-d2ce008f-5d94-56e3-be1c-1c86232ef02c-job-1794862872516.mp3', '--title', 'Fed Chairman Highlights Economic Uncertainty of A.I. Boom', '--rights-confirmed']' returned non-zero exit status 1."
+      "url": "https://www.nytimes.com/2026/11/16/us/politics/bessent-lutnick-china.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/16/us/politics/bessent-lutnick-china.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-c6f42cd6-64c2-5f67-bc0b-5553699c8cd3/job-1794869185468/article-c6f42cd6-64c2-5f67-bc0b-5553699c8cd3-job-1794869185468.mp3', '--title', 'Bessent Takes Hawkish Turn in White House Debate on China', '--rights-confirmed']' returned non-zero exit status 1."
     },
     {
-      "url": "https://www.nytimes.com/2026/11/16/world/asia/trump-asia-china-xi-putin.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/16/world/asia/trump-asia-china-xi-putin.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-5a692e5a-d78c-591b-81d8-7efa14ab0f1b/job-1794865372685/article-5a692e5a-d78c-591b-81d8-7efa14ab0f1b-job-1794865372685.mp3', '--title', 'Trump\u2019s Asia Trip Will Bring Him to the Table With Xi and Putin: What to Know', '--rights-confirmed']' returned non-zero exi"
+      "url": "https://www.nytimes.com/2026/11/16/movies/james-bond-robert-pattinson.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/16/movies/james-bond-robert-pattinson.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-d578efbf-6eb7-5fd4-b16b-7625c9f52a9f/job-1794844935911/article-d578efbf-6eb7-5fd4-b16b-7625c9f52a9f-job-1794844935911.mp3', '--title', 'Robert Pattinson Named as the Next James Bond', '--rights-confirmed']' returned non-zero exit status 1."
     },
     {
-      "url": "https://www.nytimes.com/2026/11/16/us/politics/trump-china-ai-chip-loophole.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/16/us/politics/trump-china-ai-chip-loophole.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-42c42134-4f11-5b0f-ae6a-45ad66bdddea/job-1794863259280/article-42c42134-4f11-5b0f-ae6a-45ad66bdddea-job-1794863259280.mp3', '--title', 'Trump Administration Moves to Close A.I. Chip Loophole Ahead of China Trip', '--rights-confirmed']' returned non-zero ex"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/16/us/politics/trump-jensen-huang-nvidia.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/16/us/politics/trump-jensen-huang-nvidia.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-36a0e198-e348-51c4-b7dc-fc0e6c667683/job-1794851317186/article-36a0e198-e348-51c4-b7dc-fc0e6c667683-job-1794851317186.mp3', '--title', 'Trump Says He\u2019s Open to Reinstatement of Jensen Huang as Nvidia Chief', '--rights-confirmed']' returned non-zero exit statu"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/16/business/elon-musk-tesla-spacex.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/16/business/elon-musk-tesla-spacex.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-fe6c95a2-130e-5466-8a09-1774b4f77754/job-1794851146495/article-fe6c95a2-130e-5466-8a09-1774b4f77754-job-1794851146495.mp3', '--title', 'Elon Musk Wants to Merge Tesla and SpaceX. Their Businesses Already Overlap.', '--rights-confirmed']' returned non-zero exit stat"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/16/arts/music/grammy-nominations-snubs-surprises-madonna-noah-kahan.html",
-      "error": "HTTP 200; Content-Type: text/html; charset=utf-8; final host: www.nytimes.com\nReceived 331184 approximate HTML bytes\nAudio source discovery failed: No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article"
+      "url": "https://www.nytimes.com/2026/11/15/well/brain-cancer-children-dipg.html",
+      "error": "HTTP 200; Content-Type: text/html; charset=utf-8; final host: www.nytimes.com\nReceived 535761 approximate HTML bytes\nAudio source discovery failed: No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article"
     }
   ]
 }
