@@ -3,36 +3,36 @@
   "published": 0,
   "failures": [
     {
-      "url": "https://www.nytimes.com/2026/11/17/us/overton-fda-nomination-withdrawn.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+      "url": "https://www.nytimes.com/2026/11/18/us/politics/trump-xi-shenzhen-spy-scandal.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/18/us/politics/trump-xi-shenzhen-spy-scandal.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-af771468-bfbc-55b1-bb60-0c9cc3daa707/job-1795027940304/article-af771468-bfbc-55b1-bb60-0c9cc3daa707-job-1795027940304.mp3', '--title', 'Trump Arrives in China Focused on Friendship, Not Spy Scandal', '--rights-confirmed']' returned non-zero exit status 1."
     },
     {
-      "url": "https://www.nytimes.com/2026/11/17/us/politics/outages-flights-banks-tech.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/17/us/politics/outages-flights-banks-tech.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-8a48ec75-8a0a-5581-b5f3-2ad44b105cfe/job-1794977960272/article-8a48ec75-8a0a-5581-b5f3-2ad44b105cfe-job-1794977960272.mp3', '--title', 'After Days of Digital Outages, Americans Wonder if the Country Is Breaking', '--rights-confirmed']' returned non-zero exit"
+      "url": "https://www.nytimes.com/2026/11/18/technology/anthropic-ipo-pricing.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/18/technology/anthropic-ipo-pricing.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-bc0ef5ac-f8d5-5a4a-9d7e-66001e6d5b20/job-1795022010932/article-bc0ef5ac-f8d5-5a4a-9d7e-66001e6d5b20-job-1795022010932.mp3', '--title', 'Anthropic Is Set to Finalize Pricing for Blockbuster I.P.O.', '--rights-confirmed']' returned non-zero exit status 1."
     },
     {
-      "url": "https://www.nytimes.com/2026/11/17/business/nvidia-earnings-jensen-huang.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+      "url": "https://www.nytimes.com/2026/11/18/us/politics/bill-cassidy-jim-oneill-science.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/18/us/politics/bill-cassidy-jim-oneill-science.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-3907fdef-a36d-5bd1-92b3-8909800fe766/job-1795024059968/article-3907fdef-a36d-5bd1-92b3-8909800fe766-job-1795024059968.mp3', '--title', 'Senator Bill Cassidy Blocks Trump Pick to Head Science Agency', '--rights-confirmed']' returned non-zero exit status "
     },
     {
-      "url": "https://www.nytimes.com/2026/11/17/briefing/us-measles-surge-nvidia-profit.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/17/briefing/us-measles-surge-nvidia-profit.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-67ec3ecc-c30f-543c-8ce4-3a09fdeeba01/job-1794959919160/article-67ec3ecc-c30f-543c-8ce4-3a09fdeeba01-job-1794959919160.mp3', '--title', 'Measles Is Officially Back', '--rights-confirmed']' returned non-zero exit status 1."
+      "url": "https://www.nytimes.com/2026/11/18/world/middleeast/israel-gaza-war-ground-operation.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/18/world/middleeast/israel-gaza-war-ground-operation.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-5d3905a5-6981-510e-9ce2-1620c0939508/job-1795033786676/article-5d3905a5-6981-510e-9ce2-1620c0939508-job-1795033786676.mp3', '--title', 'Israeli Tanks Advance Across Gaza Cease-Fire Line in Rare Incursion', '--rights-confirmed']' returned non-zero "
     },
     {
-      "url": "https://www.nytimes.com/2026/11/17/us/politics/rfk-jr-measles-democrats.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+      "url": "https://www.nytimes.com/2026/11/18/climate/cop31-climate-global-warming.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/18/climate/cop31-climate-global-warming.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-eaf53086-f9e8-56c3-98fa-c0942e7ba71f/job-1795022648091/article-eaf53086-f9e8-56c3-98fa-c0942e7ba71f-job-1795022648091.mp3', '--title', '\u2018Shocking\u2019 Signs of Climate Change Add Urgency to COP31 Talks', '--rights-confirmed']' returned non-zero exit status 1."
     },
     {
-      "url": "https://www.nytimes.com/2026/11/17/us/politics/jeffries-medicare-expansion.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/17/us/politics/jeffries-medicare-expansion.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-e38d2a0e-4f27-5b68-9e6f-675947a92f56/job-1794957956972/article-e38d2a0e-4f27-5b68-9e6f-675947a92f56-job-1794957956972.mp3', '--title', 'Hakeem Jeffries Embraces Medicare Expansion on Eve of Speaker Vote', '--rights-confirmed']' returned non-zero exit status"
+      "url": "https://www.nytimes.com/2026/11/18/world/canada/trump-carney-meeting-asia-us-canada-trade.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/18/world/canada/trump-carney-meeting-asia-us-canada-trade.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-2ea0c389-974b-5ac2-9baa-72c9ff3e5c06/job-1795022642813/article-2ea0c389-974b-5ac2-9baa-72c9ff3e5c06-job-1795022642813.mp3', '--title', 'Carney and Trump Hold Unscheduled Trade Meeting at Asia Summit', '--rights-confirmed']' returned non-zero "
     },
     {
-      "url": "https://www.nytimes.com/2026/11/17/us/politics/democrats-leadership-battle-schumer-van-hollen.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/17/us/politics/democrats-leadership-battle-schumer-van-hollen.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-60b76ea8-ba70-550b-9a30-1f9e792f1b86/job-1794975105890/article-60b76ea8-ba70-550b-9a30-1f9e792f1b86-job-1794975105890.mp3', '--title', 'For Democrats, a Leadership Fight Is Marring an Electoral Triumph', '--rights-confirmed']' returned no"
+      "url": "https://www.nytimes.com/2026/11/18/us/politics/vance-trump-iran-2028-election-rubio.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/18/us/politics/vance-trump-iran-2028-election-rubio.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-539b47c5-cab6-50e2-b5a5-8ab735bc4c93/job-1795022119380/article-539b47c5-cab6-50e2-b5a5-8ab735bc4c93-job-1795022119380.mp3', '--title', 'Trump Grows Frustrated With Vance Over Iran War Critique', '--rights-confirmed']' returned non-zero exit status "
     },
     {
-      "url": "https://www.nytimes.com/2026/11/17/technology/apple-down-outage-issues.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+      "url": "https://www.nytimes.com/2026/11/18/business/economy/google-spirit-employee-data-ai.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/18/business/economy/google-spirit-employee-data-ai.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-dbc46091-6a90-5235-81f2-965d0101a2f0/job-1795021352233/article-dbc46091-6a90-5235-81f2-965d0101a2f0-job-1795021352233.mp3', '--title', 'Google Buys Worker Data From Spirit Airlines in a New Market to Feed A.I.', '--rights-confirmed']' returned non-z"
     }
   ]
 }
