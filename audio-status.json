@@ -3,35 +3,35 @@
   "published": 0,
   "failures": [
     {
+      "url": "https://www.nytimes.com/2026/11/17/us/overton-fda-nomination-withdrawn.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/17/us/politics/outages-flights-banks-tech.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/17/us/politics/outages-flights-banks-tech.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-8a48ec75-8a0a-5581-b5f3-2ad44b105cfe/job-1794977960272/article-8a48ec75-8a0a-5581-b5f3-2ad44b105cfe-job-1794977960272.mp3', '--title', 'After Days of Digital Outages, Americans Wonder if the Country Is Breaking', '--rights-confirmed']' returned non-zero exit"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/17/business/nvidia-earnings-jensen-huang.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/17/briefing/us-measles-surge-nvidia-profit.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/17/briefing/us-measles-surge-nvidia-profit.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-67ec3ecc-c30f-543c-8ce4-3a09fdeeba01/job-1794959919160/article-67ec3ecc-c30f-543c-8ce4-3a09fdeeba01-job-1794959919160.mp3', '--title', 'Measles Is Officially Back', '--rights-confirmed']' returned non-zero exit status 1."
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/17/us/politics/rfk-jr-measles-democrats.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/17/us/politics/jeffries-medicare-expansion.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/17/us/politics/jeffries-medicare-expansion.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-e38d2a0e-4f27-5b68-9e6f-675947a92f56/job-1794957956972/article-e38d2a0e-4f27-5b68-9e6f-675947a92f56-job-1794957956972.mp3', '--title', 'Hakeem Jeffries Embraces Medicare Expansion on Eve of Speaker Vote', '--rights-confirmed']' returned non-zero exit status"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/17/us/politics/democrats-leadership-battle-schumer-van-hollen.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/17/us/politics/democrats-leadership-battle-schumer-van-hollen.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-60b76ea8-ba70-550b-9a30-1f9e792f1b86/job-1794975105890/article-60b76ea8-ba70-550b-9a30-1f9e792f1b86-job-1794975105890.mp3', '--title', 'For Democrats, a Leadership Fight Is Marring an Electoral Triumph', '--rights-confirmed']' returned no"
+    },
+    {
       "url": "https://www.nytimes.com/2026/11/17/technology/apple-down-outage-issues.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/17/technology/apple-down-outage-issues.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-f19c2774-8a63-5cee-aff5-9c1c63b1e76f/job-1794945265808/article-f19c2774-8a63-5cee-aff5-9c1c63b1e76f-job-1794945265808.mp3', '--title', 'Apple Addresses Outages Affecting Apple Pay, iCloud and Apps', '--rights-confirmed']' returned non-zero exit status 1."
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/17/world/europe/ukraine-kyiv-russia-kerch-bridge-crimea.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/17/world/europe/ukraine-kyiv-russia-kerch-bridge-crimea.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-5ed31c9a-be7e-526e-bd08-4ff6f7370148/job-1794935514462/article-5ed31c9a-be7e-526e-bd08-4ff6f7370148-job-1794935514462.mp3', '--title', 'Ukraine Attacks Kerch Bridge Linking Russia to Occupied Crimea', '--rights-confirmed']' returned non-zero ex"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/17/us/politics/nsa-down-network-outage-nsanet.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/17/us/politics/ukraine-russia-europe-trump.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/17/us/politics/ukraine-russia-europe-trump.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-09115e04-7c1d-598d-a939-bb861f8e031f/job-1794947471971/article-09115e04-7c1d-598d-a939-bb861f8e031f-job-1794947471971.mp3', '--title', 'Ukraine Talks Run Up Against Deep Enmity Between Russia and Europe', '--rights-confirmed']' returned non-zero exit status"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/17/opinion/measles-elimination-status-vaccines.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/17/opinion/measles-elimination-status-vaccines.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-6fbf83b1-9e38-5321-a406-0b999037829e/job-1794942965326/article-6fbf83b1-9e38-5321-a406-0b999037829e-job-1794942965326.mp3', '--title', 'An Elegy for Americans Dying of Measles', '--rights-confirmed']' returned non-zero exit status 1."
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/17/well/us-measles-elimination-status.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/17/us/hegseth-christopher-laneve-army-chief-of-staff.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/17/us/measles-us-whats-next.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     }
   ]
