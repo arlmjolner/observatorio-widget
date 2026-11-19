@@ -3,36 +3,36 @@
   "published": 0,
   "failures": [
     {
-      "url": "https://www.nytimes.com/2026/11/18/arts/design/van-gogh-painting-auction-sothebys.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/18/arts/design/van-gogh-painting-auction-sothebys.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-64f95c30-4eb2-5904-af4c-3f53a55afe5f/job-1795056062689/article-64f95c30-4eb2-5904-af4c-3f53a55afe5f-job-1795056062689.mp3', '--title', 'Van Gogh Soars to $190.4 Million at Sotheby\u2019s After an 11th-Hour Settlement', '--rights-confirmed']' returned non-"
+      "url": "https://www.nytimes.com/2026/11/19/us/anthropic-ipo-spending-wealth-san-francisco.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/19/us/anthropic-ipo-spending-wealth-san-francisco.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-41f8f44f-bb38-5237-9c56-f7dbaedcbcaf/job-1795114557828/article-41f8f44f-bb38-5237-9c56-f7dbaedcbcaf-job-1795114557828.mp3', '--title', 'The Bay Area Wonders: What Will Anthropic Workers Do With Their Wealth?', '--rights-confirmed']' returned non-zero"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/18/technology/anthropic-ipo-pricing.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/18/technology/anthropic-ipo-pricing.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-bc0ef5ac-f8d5-5a4a-9d7e-66001e6d5b20/job-1795048887190/article-bc0ef5ac-f8d5-5a4a-9d7e-66001e6d5b20-job-1795048887190.mp3', '--title', 'Anthropic Sells $81.3 Billion in Shares for a Record IPO', '--rights-confirmed']' returned non-zero exit status 1."
+      "url": "https://www.nytimes.com/2026/11/18/technology/tech-outages-emergency-prep.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/18/technology/tech-outages-emergency-prep.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-03d7395f-1043-5770-914a-326ed27bbdca/job-1795106982407/article-03d7395f-1043-5770-914a-326ed27bbdca-job-1795106982407.mp3', '--title', 'Tech Outages May Become Routine. Experts Say Don\u2019t Panic, but Prepare.', '--rights-confirmed']' returned non-zero exit sta"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/18/nyregion/brooklyn-building-collapse-video.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/18/nyregion/brooklyn-building-collapse-video.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-717c3f56-8b6e-5e5b-bdbb-6b4f95924405/job-1795045449083/article-717c3f56-8b6e-5e5b-bdbb-6b4f95924405-job-1795045449083.mp3', '--title', 'Video from MTA Bus Captures Moments Before Fatal Brooklyn Building Collapse', '--rights-confirmed']' returned non-zero "
+      "url": "https://www.nytimes.com/2026/11/19/world/asia/rohingya-camps-photos-bangladesh.html",
+      "error": "HTTP 200; Content-Type: text/html; charset=utf-8; final host: www.nytimes.com\nReceived 391369 approximate HTML bytes\nAudio source discovery failed: No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/18/technology/google-gemini-ai-search-schools-nyc-la-chicago.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/18/technology/google-gemini-ai-search-schools-nyc-la-chicago.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-4ee7ac3d-1039-5177-a0bd-c9d3bd1a46d7/job-1795035011763/article-4ee7ac3d-1039-5177-a0bd-c9d3bd1a46d7-job-1795035011763.mp3', '--title', 'NYC, LA and Chicago School Districts Weigh Breaking Up With Google Search Over A.I.', '--rights-confirm"
+      "url": "https://www.nytimes.com/2026/11/19/world/europe/ukraine-dutch-embassy.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/19/world/europe/ukraine-dutch-embassy.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-84218a47-0003-589d-9589-880bffb47b75/job-1795114094632/article-84218a47-0003-589d-9589-880bffb47b75-job-1795114094632.mp3', '--title', 'Drone Hits Dutch Embassy Compound in Kyiv, Ukrainian Officials Say', '--rights-confirmed']' returned non-zero exit status 1."
     },
     {
-      "url": "https://www.nytimes.com/2026/11/18/weather/sf-flooding-rain-storm.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/18/weather/sf-flooding-rain-storm.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-fe28abc3-7fa6-5abd-b0f9-d99d03317fbc/job-1795038900791/article-fe28abc3-7fa6-5abd-b0f9-d99d03317fbc-job-1795038900791.mp3', '--title', 'Storm Brings Torrential Rain and Floods to the San Francisco Bay Area', '--rights-confirmed']' returned non-zero exit status 1."
+      "url": "https://www.nytimes.com/2026/11/19/magazine/grand-theft-auto-six.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/18/briefing/trump-putin-xi-meeting.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/18/briefing/trump-putin-xi-meeting.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-fff0300e-696e-5d42-931c-7189e087dde1/job-1795041747545/article-fff0300e-696e-5d42-931c-7189e087dde1-job-1795041747545.mp3', '--title', 'Trump, Putin and Xi to Meet for the First Time', '--rights-confirmed']' returned non-zero exit status 1."
+      "url": "https://www.nytimes.com/video/world/asia/100000011287890/inside-a-rohingya-camp-after-a-genocide-ruling.html",
+      "error": "HTTP 200; Content-Type: text/html; charset=utf-8; final host: www.nytimes.com\nReceived 536699 approximate HTML bytes\nAudio source discovery failed: No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/18/opinion/trump-deportation-south-sudan.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/18/opinion/trump-deportation-south-sudan.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-4ceb3742-7378-54f9-a64f-6fb539b6fbc0/job-1795039206866/article-4ceb3742-7378-54f9-a64f-6fb539b6fbc0-job-1795039206866.mp3', '--title', 'Trump \u2018Disappeared\u2019 Them in 2025. I Found Them, Locked Up and Famished.', '--rights-confirmed']' returned non-zero exit sta"
+      "url": "https://www.nytimes.com/2026/11/19/opinion/the-tuners-international-chopin-piano-competition.html",
+      "error": "HTTP 200; Content-Type: text/html; charset=utf-8; final host: www.nytimes.com\nReceived 358345 approximate HTML bytes\nAudio source discovery failed: No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/18/world/europe/grand-theft-auto-america-scotland-global-reaction.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/18/world/europe/grand-theft-auto-america-scotland-global-reaction.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-b68b7d40-51fb-589f-a9e3-05830a1397b7/job-1795039544052/article-b68b7d40-51fb-589f-a9e3-05830a1397b7-job-1795039544052.mp3', '--title', 'Grand Theft Auto: An American Icon, Born in Britain', '--rights-confirmed']' returned non-zero exi"
+      "url": "https://www.nytimes.com/2026/11/19/business/anthropic-ipo-dustin-moskovitz.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     }
   ]
 }
