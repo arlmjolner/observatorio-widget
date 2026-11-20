@@ -3,36 +3,36 @@
   "published": 0,
   "failures": [
     {
-      "url": "https://www.nytimes.com/2026/11/19/us/anthropic-ipo-spending-wealth-san-francisco.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/19/us/anthropic-ipo-spending-wealth-san-francisco.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-41f8f44f-bb38-5237-9c56-f7dbaedcbcaf/job-1795114557828/article-41f8f44f-bb38-5237-9c56-f7dbaedcbcaf-job-1795114557828.mp3', '--title', 'The Bay Area Wonders: What Will Anthropic Workers Do With Their Wealth?', '--rights-confirmed']' returned non-zero"
+      "url": "https://www.nytimes.com/2026/11/20/world/europe/putin-trump-xi-summit-apec.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/20/world/europe/putin-trump-xi-summit-apec.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-e340b532-bdb2-56a4-940b-0d255162676d/job-1795150874958/article-e340b532-bdb2-56a4-940b-0d255162676d-job-1795150874958.mp3', '--title', 'A Summit Gives Putin the Win He Craves: Equal Stature With Superpowers', '--rights-confirmed']' returned non-zero exit st"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/18/technology/tech-outages-emergency-prep.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/18/technology/tech-outages-emergency-prep.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-03d7395f-1043-5770-914a-326ed27bbdca/job-1795106982407/article-03d7395f-1043-5770-914a-326ed27bbdca-job-1795106982407.mp3', '--title', 'Tech Outages May Become Routine. Experts Say Don\u2019t Panic, but Prepare.', '--rights-confirmed']' returned non-zero exit sta"
+      "url": "https://www.nytimes.com/2026/11/19/climate/senate-passes-baaja-permitting-bill-energy.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/19/climate/senate-passes-baaja-permitting-bill-energy.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-75ef6bac-2640-58f5-9a9b-f14792c84862/job-1795148765836/article-75ef6bac-2640-58f5-9a9b-f14792c84862-job-1795148765836.mp3', '--title', 'Senate Passes Major Permitting Bill to Speed Up Energy Projects', '--rights-confirmed']' returned non-zero exi"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/19/world/asia/rohingya-camps-photos-bangladesh.html",
-      "error": "HTTP 200; Content-Type: text/html; charset=utf-8; final host: www.nytimes.com\nReceived 391369 approximate HTML bytes\nAudio source discovery failed: No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article"
+      "url": "https://www.nytimes.com/2026/11/19/us/fiona-hippo-dead-cincinnati-zoo.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/19/us/fiona-hippo-dead-cincinnati-zoo.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-bb71811b-3e13-5a32-a717-819bcd1e6550/job-1795138418705/article-bb71811b-3e13-5a32-a717-819bcd1e6550-job-1795138418705.mp3', '--title', 'Fiona the Hippo, Star of Cincinnati Zoo and Beyond, Dies After Eating Child\u2019s Hat', '--rights-confirmed']' returned non-zero e"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/19/world/europe/ukraine-dutch-embassy.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/19/world/europe/ukraine-dutch-embassy.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-84218a47-0003-589d-9589-880bffb47b75/job-1795114094632/article-84218a47-0003-589d-9589-880bffb47b75-job-1795114094632.mp3', '--title', 'Drone Hits Dutch Embassy Compound in Kyiv, Ukrainian Officials Say', '--rights-confirmed']' returned non-zero exit status 1."
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/19/magazine/grand-theft-auto-six.html",
+      "url": "https://www.nytimes.com/2026/11/19/world/asia/trump-xi-putin.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/video/world/asia/100000011287890/inside-a-rohingya-camp-after-a-genocide-ruling.html",
-      "error": "HTTP 200; Content-Type: text/html; charset=utf-8; final host: www.nytimes.com\nReceived 536699 approximate HTML bytes\nAudio source discovery failed: No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article"
+      "url": "https://www.nytimes.com/2026/11/19/us/tech-outages-computer-networks.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/19/us/tech-outages-computer-networks.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-36c94a7a-e0f9-599e-b21c-d034a1779f41/job-1795139559422/article-36c94a7a-e0f9-599e-b21c-d034a1779f41-job-1795139559422.mp3', '--title', 'Technology Promised Ease. Outages Are Making Many Americans Uneasy.', '--rights-confirmed']' returned non-zero exit status 1."
     },
     {
-      "url": "https://www.nytimes.com/2026/11/19/opinion/the-tuners-international-chopin-piano-competition.html",
-      "error": "HTTP 200; Content-Type: text/html; charset=utf-8; final host: www.nytimes.com\nReceived 358345 approximate HTML bytes\nAudio source discovery failed: No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article"
+      "url": "https://www.nytimes.com/2026/11/19/movies/tinto-brass-dead.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/19/movies/tinto-brass-dead.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-3f3031f4-4975-5e9b-b03f-c4d80a92c990/job-1795136476115/article-3f3031f4-4975-5e9b-b03f-c4d80a92c990-job-1795136476115.mp3', '--title', 'Tinto Brass Has Died. He Directed the Erotic Epic \u2018Caligula.\u2019', '--rights-confirmed']' returned non-zero exit status 1."
     },
     {
-      "url": "https://www.nytimes.com/2026/11/19/business/anthropic-ipo-dustin-moskovitz.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+      "url": "https://www.nytimes.com/2026/11/19/technology/anthropic-ipo-employees-payout.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/19/technology/anthropic-ipo-employees-payout.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-610c5e21-0735-5ae4-a5f6-090d7dde5c83/job-1795134363049/article-610c5e21-0735-5ae4-a5f6-090d7dde5c83-job-1795134363049.mp3', '--title', 'Anthropic\u2019s I.P.O. Turns Tech Researchers Into Overnight Millionaires', '--rights-confirmed']' returned non-zero exit s"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/19/weather/florida-floods-rain-closures-evacuations.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/19/weather/florida-floods-rain-closures-evacuations.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-86067abb-68d4-5ad8-97d0-a91d70842718/job-1795123835865/article-86067abb-68d4-5ad8-97d0-a91d70842718-job-1795123835865.mp3', '--title', 'In Florida, More Rain Threatens Flooded Areas and Roads', '--rights-confirmed']' returned non-zero exit status 1"
     }
   ]
 }
