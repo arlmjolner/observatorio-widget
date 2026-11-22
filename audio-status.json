@@ -1,22 +1,18 @@
 {
-  "attempted": 7,
+  "attempted": 6,
   "published": 0,
   "failures": [
     {
-      "url": "https://www.nytimes.com/2026/11/21/us/politics/tech-outages-ai-disruptions.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/21/us/politics/tech-outages-ai-disruptions.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-646be638-9cf4-580e-a88a-e9372c289eae/job-1795288312513/article-646be638-9cf4-580e-a88a-e9372c289eae-job-1795288312513.mp3', '--title', 'Tech Outages Are Only the Beginning. A.I. Will Bring More Disruptions.', '--rights-confirmed']' returned non-zero exit st"
+      "url": "https://www.nytimes.com/2026/11/21/world/americas/mexico-captures-drug-kingpin.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/21/world/americas/mexico-captures-drug-kingpin.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-8bef4681-e4d3-5cb7-b058-411ef78e11f4/job-1795312591568/article-8bef4681-e4d3-5cb7-b058-411ef78e11f4-job-1795312591568.mp3', '--title', 'Drones, Texts and Diversions: How Mexico Captured a Most Wanted Man', '--rights-confirmed']' returned non-zero exit s"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/21/world/americas/mexico-el-chapo-isidro-captured-drugs.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/21/world/americas/mexico-el-chapo-isidro-captured-drugs.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-76494cb4-9cfb-5627-9c33-aacc670bd2bb/job-1795287457988/article-76494cb4-9cfb-5627-9c33-aacc670bd2bb-job-1795287457988.mp3', '--title', 'Top Drug Kingpin Is Captured by Mexican Army as Gunfire Erupts', '--rights-confirmed']' returned non-zero ex"
+      "url": "https://www.nytimes.com/2026/11/21/us/politics/trump-congressional-oversight-contractors.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/21/us/politics/trump-congressional-oversight-contractors.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-66d5ea12-821d-507f-9e4c-3af1738f97e8/job-1795310994203/article-66d5ea12-821d-507f-9e4c-3af1738f97e8-job-1795310994203.mp3', '--title', 'Trump Moves to Restrict Congressional Oversight of Contractors', '--rights-confirmed']' returned non-zero e"
     },
     {
       "url": "https://www.nytimes.com/2026/11/21/opinion/trump-xi-putin-summit-china-ai-democrats.html",
       "error": "HTTP 200; Content-Type: text/html; charset=utf-8; final host: www.nytimes.com\nReceived 543438 approximate HTML bytes\nAudio source discovery failed: No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/21/magazine/hakeem-jeffries-interview.html",
-      "error": "HTTP 200; Content-Type: text/html; charset=utf-8; final host: www.nytimes.com\nReceived 556458 approximate HTML bytes\nAudio source discovery failed: No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article"
     },
     {
       "url": "https://www.nytimes.com/2026/11/21/opinion/sister-snl-family-care-parents.html",
@@ -27,8 +23,8 @@
       "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/21/business/anthropic-stock-wall-street-silicon-valley.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-5af74e84-0d48-53dd-900e-c67c7e1a5999/job-1795255426157/article-5af74e84-0d48-53dd-900e-c67c7e1a5999-job-1795255426157.mp3', '--title', 'Anthropic\u2019s Debut Shows the Disconnect Between Wall Street and Silicon Valley', '--rights-confirmed']' return"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/20/us/politics/training-ice-immigration-inspector-general.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/20/us/politics/training-ice-immigration-inspector-general.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-3904c632-74e7-5065-9de1-5a8ae5092b9d/job-1795225435408/article-3904c632-74e7-5065-9de1-5a8ae5092b9d-job-1795225435408.mp3', '--title', 'Officials Find Cascade of Problems With ICE Training in Trump\u2019s Immigration Crackdown', '--rights-confirme"
+      "url": "https://www.nytimes.com/2026/11/21/us/politics/tech-outages-ai-disruptions.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/21/us/politics/tech-outages-ai-disruptions.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-646be638-9cf4-580e-a88a-e9372c289eae/job-1795288312513/article-646be638-9cf4-580e-a88a-e9372c289eae-job-1795288312513.mp3', '--title', 'Tech Outages Are Only the Beginning. A.I. Will Bring More Disruptions.', '--rights-confirmed']' returned non-zero exit st"
     }
   ]
 }
