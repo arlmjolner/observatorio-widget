@@ -3,36 +3,36 @@
   "published": 0,
   "failures": [
     {
-      "url": "https://www.nytimes.com/2026/11/22/us/virginia-foxx-chuck-hubbard-north-carolina-house.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/22/us/virginia-foxx-chuck-hubbard-north-carolina-house.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-bb42170b-b4b1-5cd7-a39d-eeba80b164b6/job-1795372631212/article-bb42170b-b4b1-5cd7-a39d-eeba80b164b6-job-1795372631212.mp3', '--title', 'Democrat Chuck Hubbard Defeats 11-Term Republican Virginia Foxx in North Carolina', '--rights-confirmed']' re"
+      "url": "https://www.nytimes.com/2026/11/23/world/asia/china-us-nuclear-ai.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/23/world/asia/china-us-nuclear-ai.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-6670a87f-9ef3-59bd-a477-e5073d6cf995/job-1795412958738/article-6670a87f-9ef3-59bd-a477-e5073d6cf995-job-1795412958738.mp3', '--title', 'Behind China\u2019s A.I. Anxieties, Fear of a Nuclear Checkmate', '--rights-confirmed']' returned non-zero exit status 1."
     },
     {
       "url": "https://www.nytimes.com/2026/11/22/us/politics/democrats-midterm-house-majority-record.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/22/us/politics/democrats-midterm-house-majority-record.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-80924be7-a01f-5f01-b144-781d6147ce34/job-1795371789441/article-80924be7-a01f-5f01-b144-781d6147ce34-job-1795371789441.mp3', '--title', 'Democrats Clinch 258 House Seats, an Election-Year Record This Century', '--rights-confirmed']' returned non-"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/22/climate/cop31-climate-summit-ends-climate.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/22/climate/cop31-climate-summit-ends-climate.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-4105b5a4-3171-5abb-87e4-94be194e722d/job-1795371639901/article-4105b5a4-3171-5abb-87e4-94be194e722d-job-1795371639901.mp3', '--title', 'COP31 Talks Collapse in Turkey in a Clash Over Fossil Fuels', '--rights-confirmed']' returned non-zero exit status 1."
+      "url": "https://www.nytimes.com/2026/11/22/us/virginia-foxx-chuck-hubbard-north-carolina-house.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/22/us/virginia-foxx-chuck-hubbard-north-carolina-house.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-bb42170b-b4b1-5cd7-a39d-eeba80b164b6/job-1795390136106/article-bb42170b-b4b1-5cd7-a39d-eeba80b164b6-job-1795390136106.mp3', '--title', 'Democrat Chuck Hubbard Defeats 11-Term Republican Virginia Foxx in North Carolina', '--rights-confirmed']' re"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/22/business/mortgage-rates-housing-landlords.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/22/business/mortgage-rates-housing-landlords.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-098e7e03-8aef-5b93-ae9f-b7c0103fd1b6/job-1795370749258/article-098e7e03-8aef-5b93-ae9f-b7c0103fd1b6-job-1795370749258.mp3', '--title', 'Rather Than Sell Their House, They Became Landlords Instead', '--rights-confirmed']' returned non-zero exit status 1."
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/22/opinion/jensen-huang-ai-ethics-cold-war.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/22/opinion/jensen-huang-ai-ethics-cold-war.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-63a2e9f7-86ef-5ff7-8b9f-25822ed834e3/job-1795369244217/article-63a2e9f7-86ef-5ff7-8b9f-25822ed834e3-job-1795369244217.mp3', '--title', 'Why Are We at the Mercy of the World\u2019s Weirdest Men?', '--rights-confirmed']' returned non-zero exit status 1."
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/22/us/new-orleans-riverboat-crash-captain.html",
+      "error": "HTTP 200; Content-Type: text/html; charset=utf-8; final host: www.nytimes.com\nReceived 288090 approximate HTML bytes\nAudio source discovery failed: No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/22/us/politics/alice-huang-china-spy-agency-nvidia.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/22/us/politics/alice-huang-china-spy-agency-nvidia.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-b5ada1d4-e769-5ae5-b102-ca2112578b73/job-1795400252122/article-b5ada1d4-e769-5ae5-b102-ca2112578b73-job-1795400252122.mp3', '--title', 'U.S. Tracked Alice Huang\u2019s Contacts With China Spy Agency During Nvidia Affair', '--rights-confirmed']' returned "
     },
     {
       "url": "https://www.nytimes.com/2026/11/22/us/politics/melania-trump-ukraine-diplomacy.html",
       "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/22/us/politics/melania-trump-ukraine-diplomacy.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-c533614d-bf8d-5c32-93f1-7090fd3986ba/job-1795371139873/article-c533614d-bf8d-5c32-93f1-7090fd3986ba-job-1795371139873.mp3', '--title', 'How Melania Trump Found a Diplomatic Opening in the War in Ukraine', '--rights-confirmed']' returned non-zero exit st"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/22/us/delta-flight-delays-system-outage.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/22/us/delta-flight-delays-system-outage.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-9221b778-f715-5905-90b2-df16af0e2456/job-1795365957373/article-9221b778-f715-5905-90b2-df16af0e2456-job-1795365957373.mp3', '--title', 'FAA Says All Delta Flights Through Atlanta Delayed as Automated System Falters', '--rights-confirmed']' returned non-zero ex"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/22/magazine/looking-for-the-formula-to-stop-an-apocalypse.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/22/magazine/looking-for-the-formula-to-stop-an-apocalypse.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-ca10c7dc-4c63-5269-a3dd-b9951bbde9d4/job-1795341726698/article-ca10c7dc-4c63-5269-a3dd-b9951bbde9d4-job-1795341726698.mp3', '--title', 'Looking for the Formula to Stop an Apocalypse', '--rights-confirmed']' returned non-zero exit status 1."
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/21/world/asia/china-nvidia-spy-chips-state-security.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/21/world/asia/china-nvidia-spy-chips-state-security.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-a2ffb7d0-09de-5742-9737-7af5e283149d/job-1795345385263/article-a2ffb7d0-09de-5742-9737-7af5e283149d-job-1795345385263.mp3', '--title', 'China\u2019s Spies Set Sights on A.I. Chips Years Before Nvidia Scandal', '--rights-confirmed']' returned non-zero ex"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/22/opinion/gop-midterms-wipeout-movies.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/22/opinion/gop-midterms-wipeout-movies.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-233b493f-7915-55b8-952b-b98265e16200/job-1795345212559/article-233b493f-7915-55b8-952b-b98265e16200-job-1795345212559.mp3', '--title', 'In Movies and Politics, Money Gets You Only So Far', '--rights-confirmed']' returned non-zero exit status 1."
     }
   ]
 }
