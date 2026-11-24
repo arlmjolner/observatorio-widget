@@ -3,36 +3,36 @@
   "published": 0,
   "failures": [
     {
+      "url": "https://www.nytimes.com/2026/11/23/us/politics/walter-willett-trump-harvard.html",
+      "error": "HTTP 200; Content-Type: text/html; charset=utf-8; final host: www.nytimes.com\nReceived 406860 approximate HTML bytes\nAudio source discovery failed: No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/24/business/stocks-sp500-huang-nvidia.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/24/business/stocks-sp500-huang-nvidia.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-77a5d59d-305c-56de-a913-64be20a18cf4/job-1795554774880/article-77a5d59d-305c-56de-a913-64be20a18cf4-job-1795554774880.mp3', '--title', 'Stock Markets Slip as Nvidia and A.I. Stocks Erase Some of Monday\u2019s Rally', '--rights-confirmed']' returned non-zero exit stat"
+    },
+    {
       "url": "https://www.nytimes.com/2026/11/23/climate/iowa-army-ammunition-explosion.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/23/climate/iowa-army-ammunition-explosion.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-d93e12eb-54e7-5075-be70-e132f20330b2/job-1795545383058/article-d93e12eb-54e7-5075-be70-e132f20330b2-job-1795545383058.mp3', '--title', 'Army Will Detonate Ammunition Cache in Iowa on Wednesday', '--rights-confirmed']' returned non-zero exit status 1."
     },
     {
-      "url": "https://www.nytimes.com/2026/11/23/business/nvidia-jensen-huang.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+      "url": "https://www.nytimes.com/2026/11/23/books/review/notable-books.html",
+      "error": "HTTP 200; Content-Type: text/html; charset=utf-8; final host: www.nytimes.com\nReceived 992705 approximate HTML bytes\nAudio source discovery failed: No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/23/technology/republicans-trump-jensen-huang-nvidia.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+      "url": "https://www.nytimes.com/2026/11/24/us/haitians-deportations-canada-immigration.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/24/us/haitians-deportations-canada-immigration.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-20c211bc-ecc1-5c3b-baab-ff970343d2c3/job-1795528233491/article-20c211bc-ecc1-5c3b-baab-ff970343d2c3-job-1795528233491.mp3', '--title', 'Some Haitian Families Fleeing the U.S. for Canada Are Being Separated at the Border', '--rights-confirmed']' returned"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/23/business/trump-jensen-huang-nvidia.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+      "url": "https://www.nytimes.com/2026/11/24/world/europe/harry-meghan-royal-family-uk.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/24/world/europe/harry-meghan-royal-family-uk.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-70a547f7-bab4-5de6-98c1-ba979beabd79/job-1795527671324/article-70a547f7-bab4-5de6-98c1-ba979beabd79-job-1795527671324.mp3', '--title', 'Harry and Meghan\u2019s Life as \u2018Nonroyal Royals\u2019 in the UK', '--rights-confirmed']' returned non-zero exit status 1."
     },
     {
-      "url": "https://www.nytimes.com/2026/11/23/world/europe/russia-ukraine-war-deaths.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+      "url": "https://www.nytimes.com/2026/11/24/briefing/jensen-huang-returns-nvidia.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/24/briefing/jensen-huang-returns-nvidia.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-b8a37f6c-2949-5ddf-909a-7714abd617ab/job-1795520073672/article-b8a37f6c-2949-5ddf-909a-7714abd617ab-job-1795520073672.mp3', '--title', 'Too Big to Fail', '--rights-confirmed']' returned non-zero exit status 1."
     },
     {
-      "url": "https://www.nytimes.com/2026/11/23/us/san-francisco-flooding-water-sewer-rain.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/23/world/americas/colombia-drone-attack-cucuta.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/23/world/americas/colombia-farc-peace-deal.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+      "url": "https://www.nytimes.com/2026/11/24/magazine/back-pain-chronic-treatment.html",
+      "error": "HTTP 200; Content-Type: text/html; charset=utf-8; final host: www.nytimes.com\nReceived 350351 approximate HTML bytes\nAudio source discovery failed: No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article"
     }
   ]
 }
