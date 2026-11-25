@@ -3,36 +3,36 @@
   "published": 0,
   "failures": [
     {
+      "url": "https://www.nytimes.com/2026/11/25/us/economic-growth-recession-pessimism.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/25/us/economic-growth-recession-pessimism.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-94738b04-bef4-52bb-a494-4574a282dcb1/job-1795629099877/article-94738b04-bef4-52bb-a494-4574a282dcb1-job-1795629099877.mp3', '--title', 'The U.S. Isn\u2019t in a Recession. Try Telling Many Americans That.', '--rights-confirmed']' returned non-zero exit status 1."
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/25/us/politics/van-hollen-schumer-israel-senate.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/25/us/politics/van-hollen-schumer-israel-senate.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-15bd7003-33a2-5618-a207-551c15b6ccaf/job-1795624905928/article-15bd7003-33a2-5618-a207-551c15b6ccaf-job-1795624905928.mp3', '--title', 'Van Hollen\u2019s Challenge to Schumer Highlights Democratic Rift on Israel', '--rights-confirmed']' returned non-zero ex"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/25/business/trump-tariffs-trade.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/25/business/trump-tariffs-trade.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-ba9b9bfd-31aa-53fd-b74b-2c85662912b4/job-1795619202081/article-ba9b9bfd-31aa-53fd-b74b-2c85662912b4-job-1795619202081.mp3', '--title', 'Trump Administration Unveils New Tariffs for China, EU and More, Citing Unfair Practices', '--rights-confirmed']' returned non-zero "
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/25/technology/anthropic-stock-tech-start-ups.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/25/technology/anthropic-stock-tech-start-ups.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-3c507488-9aa7-5bcd-a0ed-c10ab21bf876/job-1795642274477/article-3c507488-9aa7-5bcd-a0ed-c10ab21bf876-job-1795642274477.mp3', '--title', 'Anthropic\u2019s Stock Debut Could Hurt Tech Start-Ups', '--rights-confirmed']' returned non-zero exit status 1."
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/25/business/stocks-sp500-nvidia-ai.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/25/business/stocks-sp500-nvidia-ai.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-200fa2a7-12af-54b1-936d-1ba116f55cd7/job-1795642363112/article-200fa2a7-12af-54b1-936d-1ba116f55cd7-job-1795642363112.mp3', '--title', 'Stock Sell-Off Continues as Investors Fret About A.I., Tariffs and Inflation', '--rights-confirmed']' returned non-zero exit stat"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/25/business/economy/inflation-pce-interest-rates.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/25/business/economy/inflation-pce-interest-rates.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-901817ac-194f-54bb-842f-533bcb1560ac/job-1795634010679/article-901817ac-194f-54bb-842f-533bcb1560ac-job-1795634010679.mp3', '--title', 'Another Hot Inflation Reading Keeps Fed on Track to Raise Rates Again', '--rights-confirmed']' returned non-zero ex"
+    },
+    {
       "url": "https://www.nytimes.com/2026/11/24/us/politics/abrego-garcia-leave-deportation.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/24/us/politics/abrego-garcia-leave-deportation.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-5f58c323-21bd-5d7b-a63f-4c6934dff7bc/job-1795588981434/article-5f58c323-21bd-5d7b-a63f-4c6934dff7bc-job-1795588981434.mp3', '--title', 'Abrego Garcia Voluntarily Leaves U.S., Ending 20-Month Legal Fight', '--rights-confirmed']' returned non-zero exit st"
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/24/us/politics/abrego-garcia-leave-deportation.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-5f58c323-21bd-5d7b-a63f-4c6934dff7bc/job-1795631773418/article-5f58c323-21bd-5d7b-a63f-4c6934dff7bc-job-1795631773418.mp3', '--title', 'Abrego Garcia Arrives in Spain After Voluntarily Leaving U.S.', '--rights-confirmed']' returned non-zero exit status "
     },
     {
-      "url": "https://www.nytimes.com/2026/11/25/arts/television/late-night-rips-into-trump-for-honoring-rudy-giuliani.html",
-      "error": "HTTP 200; Content-Type: text/html; charset=utf-8; final host: www.nytimes.com\nReceived 310507 approximate HTML bytes\nAudio source discovery failed: No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/24/climate/iowa-army-ammunition-plant-explostion.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/24/climate/iowa-army-ammunition-plant-explostion.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-78369c04-d9fc-53f3-8561-c730ca3c12e9/job-1795577807510/article-78369c04-d9fc-53f3-8561-c730ca3c12e9-job-1795577807510.mp3', '--title', 'Army\u2019s Iowa Ammunition Plant Explosion on Schedule for Wednesday Morning', '--rights-confirmed']' returned non-zero"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/24/us/politics/intelligence-nvidia-affair-congressional-briefing.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/24/us/politics/intelligence-nvidia-affair-congressional-briefing.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-860722f4-3d69-510f-878f-c3303d410054/job-1795576569677/article-860722f4-3d69-510f-878f-c3303d410054-job-1795576569677.mp3', '--title', 'Officials Brief Congressional Staff on Intelligence Surrounding Nvidia Affair', '--rights-confirmed"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/24/us/politics/house-lawyer-ilhan-omar-search.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/24/us/politics/house-lawyer-ilhan-omar-search.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-dac8902c-1e59-50dc-865e-6cee0e606db0/job-1795573270857/article-dac8902c-1e59-50dc-865e-6cee0e606db0-job-1795573270857.mp3', '--title', 'Justice Dept. Apologizes for Making False Statement to Judge in Omar Case', '--rights-confirmed']' returned non-zero e"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/24/technology/jensen-huang-apology-nvidia-ceo.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/24/technology/jensen-huang-apology-nvidia-ceo.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-4354199a-f044-55c4-8eeb-3dc130c1ac7f/job-1795556772369/article-4354199a-f044-55c4-8eeb-3dc130c1ac7f-job-1795556772369.mp3', '--title', 'Jensen Huang Apologizes to Nvidia Employees, Says He Is in Therapy', '--rights-confirmed']' returned non-zero exit sta"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/24/nyregion/zingones-market-upper-west-wise-manhattan.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/24/nyregion/zingones-market-upper-west-wise-manhattan.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-195686af-32ac-59f3-ad22-f0ca0db3bd10/job-1795553794114/article-195686af-32ac-59f3-ad22-f0ca0db3bd10-job-1795553794114.mp3', '--title', 'An Adored Manhattan Grocery, and Seinfeld Favorite, May Close Its Doors', '--rights-confirmed']' returned non-"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/23/books/review/notable-books.html",
-      "error": "HTTP 200; Content-Type: text/html; charset=utf-8; final host: www.nytimes.com\nReceived 993086 approximate HTML bytes\nAudio source discovery failed: No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article"
+      "url": "https://www.nytimes.com/2026/11/25/briefing/thanksgiving-travel-delays.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/25/briefing/thanksgiving-travel-delays.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-43c726bc-c5ac-5324-9117-fa9ec5fc9103/job-1795606122975/article-43c726bc-c5ac-5324-9117-fa9ec5fc9103-job-1795606122975.mp3', '--title', 'Thanksgiving Travel', '--rights-confirmed']' returned non-zero exit status 1."
     }
   ]
 }
