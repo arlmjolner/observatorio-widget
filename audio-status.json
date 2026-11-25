@@ -3,36 +3,36 @@
   "published": 0,
   "failures": [
     {
-      "url": "https://www.nytimes.com/2026/11/23/us/politics/walter-willett-trump-harvard.html",
-      "error": "HTTP 200; Content-Type: text/html; charset=utf-8; final host: www.nytimes.com\nReceived 406860 approximate HTML bytes\nAudio source discovery failed: No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article"
+      "url": "https://www.nytimes.com/2026/11/24/us/politics/abrego-garcia-leave-deportation.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/24/us/politics/abrego-garcia-leave-deportation.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-5f58c323-21bd-5d7b-a63f-4c6934dff7bc/job-1795588981434/article-5f58c323-21bd-5d7b-a63f-4c6934dff7bc-job-1795588981434.mp3', '--title', 'Abrego Garcia Voluntarily Leaves U.S., Ending 20-Month Legal Fight', '--rights-confirmed']' returned non-zero exit st"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/24/business/stocks-sp500-huang-nvidia.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/24/business/stocks-sp500-huang-nvidia.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-77a5d59d-305c-56de-a913-64be20a18cf4/job-1795554774880/article-77a5d59d-305c-56de-a913-64be20a18cf4-job-1795554774880.mp3', '--title', 'Stock Markets Slip as Nvidia and A.I. Stocks Erase Some of Monday\u2019s Rally', '--rights-confirmed']' returned non-zero exit stat"
+      "url": "https://www.nytimes.com/2026/11/25/arts/television/late-night-rips-into-trump-for-honoring-rudy-giuliani.html",
+      "error": "HTTP 200; Content-Type: text/html; charset=utf-8; final host: www.nytimes.com\nReceived 310507 approximate HTML bytes\nAudio source discovery failed: No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/23/climate/iowa-army-ammunition-explosion.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/23/climate/iowa-army-ammunition-explosion.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-d93e12eb-54e7-5075-be70-e132f20330b2/job-1795545383058/article-d93e12eb-54e7-5075-be70-e132f20330b2-job-1795545383058.mp3', '--title', 'Army Will Detonate Ammunition Cache in Iowa on Wednesday', '--rights-confirmed']' returned non-zero exit status 1."
+      "url": "https://www.nytimes.com/2026/11/24/climate/iowa-army-ammunition-plant-explostion.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/24/climate/iowa-army-ammunition-plant-explostion.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-78369c04-d9fc-53f3-8561-c730ca3c12e9/job-1795577807510/article-78369c04-d9fc-53f3-8561-c730ca3c12e9-job-1795577807510.mp3', '--title', 'Army\u2019s Iowa Ammunition Plant Explosion on Schedule for Wednesday Morning', '--rights-confirmed']' returned non-zero"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/24/us/politics/intelligence-nvidia-affair-congressional-briefing.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/24/us/politics/intelligence-nvidia-affair-congressional-briefing.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-860722f4-3d69-510f-878f-c3303d410054/job-1795576569677/article-860722f4-3d69-510f-878f-c3303d410054-job-1795576569677.mp3', '--title', 'Officials Brief Congressional Staff on Intelligence Surrounding Nvidia Affair', '--rights-confirmed"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/24/us/politics/house-lawyer-ilhan-omar-search.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/24/us/politics/house-lawyer-ilhan-omar-search.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-dac8902c-1e59-50dc-865e-6cee0e606db0/job-1795573270857/article-dac8902c-1e59-50dc-865e-6cee0e606db0-job-1795573270857.mp3', '--title', 'Justice Dept. Apologizes for Making False Statement to Judge in Omar Case', '--rights-confirmed']' returned non-zero e"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/24/technology/jensen-huang-apology-nvidia-ceo.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/24/technology/jensen-huang-apology-nvidia-ceo.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-4354199a-f044-55c4-8eeb-3dc130c1ac7f/job-1795556772369/article-4354199a-f044-55c4-8eeb-3dc130c1ac7f-job-1795556772369.mp3', '--title', 'Jensen Huang Apologizes to Nvidia Employees, Says He Is in Therapy', '--rights-confirmed']' returned non-zero exit sta"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/24/nyregion/zingones-market-upper-west-wise-manhattan.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/24/nyregion/zingones-market-upper-west-wise-manhattan.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-195686af-32ac-59f3-ad22-f0ca0db3bd10/job-1795553794114/article-195686af-32ac-59f3-ad22-f0ca0db3bd10-job-1795553794114.mp3', '--title', 'An Adored Manhattan Grocery, and Seinfeld Favorite, May Close Its Doors', '--rights-confirmed']' returned non-"
     },
     {
       "url": "https://www.nytimes.com/2026/11/23/books/review/notable-books.html",
-      "error": "HTTP 200; Content-Type: text/html; charset=utf-8; final host: www.nytimes.com\nReceived 992705 approximate HTML bytes\nAudio source discovery failed: No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/24/us/haitians-deportations-canada-immigration.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/24/us/haitians-deportations-canada-immigration.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-20c211bc-ecc1-5c3b-baab-ff970343d2c3/job-1795528233491/article-20c211bc-ecc1-5c3b-baab-ff970343d2c3-job-1795528233491.mp3', '--title', 'Some Haitian Families Fleeing the U.S. for Canada Are Being Separated at the Border', '--rights-confirmed']' returned"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/24/world/europe/harry-meghan-royal-family-uk.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/24/world/europe/harry-meghan-royal-family-uk.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-70a547f7-bab4-5de6-98c1-ba979beabd79/job-1795527671324/article-70a547f7-bab4-5de6-98c1-ba979beabd79-job-1795527671324.mp3', '--title', 'Harry and Meghan\u2019s Life as \u2018Nonroyal Royals\u2019 in the UK', '--rights-confirmed']' returned non-zero exit status 1."
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/24/briefing/jensen-huang-returns-nvidia.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/24/briefing/jensen-huang-returns-nvidia.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-b8a37f6c-2949-5ddf-909a-7714abd617ab/job-1795520073672/article-b8a37f6c-2949-5ddf-909a-7714abd617ab-job-1795520073672.mp3', '--title', 'Too Big to Fail', '--rights-confirmed']' returned non-zero exit status 1."
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/24/magazine/back-pain-chronic-treatment.html",
-      "error": "HTTP 200; Content-Type: text/html; charset=utf-8; final host: www.nytimes.com\nReceived 350351 approximate HTML bytes\nAudio source discovery failed: No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article"
+      "error": "HTTP 200; Content-Type: text/html; charset=utf-8; final host: www.nytimes.com\nReceived 993086 approximate HTML bytes\nAudio source discovery failed: No audio tag or og:audio metadata found in the server HTML; the player may be rendered by JavaScript or unavailable for this article"
     }
   ]
 }
