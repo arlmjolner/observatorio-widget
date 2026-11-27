@@ -3,11 +3,19 @@
   "published": 0,
   "failures": [
     {
-      "url": "https://www.nytimes.com/2026/11/26/business/trump-tariffs-asia.html",
+      "url": "https://www.nytimes.com/2026/11/26/us/pacifica-pier-collapse-el-nino-king-tides.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/26/us/iowa-lead-ammunition-stockpile-history.html",
+      "url": "https://www.nytimes.com/2026/11/26/nyregion/macys-thanksgiving-day-parade-empty-streets.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/26/business/dan-carney-dead.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/26/business/dan-carney-dead.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-1067f7cd-61e2-5ca8-a76b-4573995afaa2/job-1795725451085/article-1067f7cd-61e2-5ca8-a76b-4573995afaa2-job-1795725451085.mp3', '--title', 'Dan Carney Has Died. He Co-Founded Pizza Hut and Then Made It Ubiquitous.', '--rights-confirmed']' returned non-zero exit status 1."
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/25/nyregion/macys-thanksgiving-day-parade-marching-bands.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
@@ -15,24 +23,16 @@
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/26/world/europe/france-depardieu-rape-trial.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/26/business/nvidia-southeast-asia-sales.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/26/briefing/giving-thanks.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
-    },
-    {
       "url": "https://www.nytimes.com/2026/11/26/opinion/thanksgiving-america-education-disabilities.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/26/opinion/thanksgiving-america-education-disabilities.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-c5f147b7-27a2-5999-9d12-3d70d05dcf6f/job-1795687464976/article-c5f147b7-27a2-5999-9d12-3d70d05dcf6f-job-1795687464976.mp3', '--title', '\u2018Pumpkin Pie Is Disgusting\u2019 and Other Unpopular Opinions', '--rights-confirmed']' returned non-zero exit stat"
     },
     {
       "url": "https://www.nytimes.com/2026/11/26/opinion/trump-maureen-dowd-brother.html",
-      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/26/opinion/trump-maureen-dowd-brother.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-e31639b5-1f88-5d47-8f8c-e632d0b028a4/job-1795687353747/article-e31639b5-1f88-5d47-8f8c-e632d0b028a4-job-1795687353747.mp3', '--title', 'Trump Lost My Brother!', '--rights-confirmed']' returned non-zero exit status 1."
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/26/us/iowa-lead-ammunition-stockpile-history.html",
+      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/26/us/iowa-lead-ammunition-stockpile-history.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-85e8b172-3a80-5cba-8607-c4b296a1390b/job-1795711868654/article-85e8b172-3a80-5cba-8607-c4b296a1390b-job-1795711868654.mp3', '--title', 'The Army Knew Much Earlier of the Explosive Risk in Iowa, Evidence Suggests', '--rights-confirmed']' returned non-zero "
     }
   ]
 }
