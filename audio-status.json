@@ -1,38 +1,30 @@
 {
-  "attempted": 8,
+  "attempted": 6,
   "published": 0,
   "failures": [
     {
-      "url": "https://www.nytimes.com/2026/11/27/us/andrea-stewart-cousins-dead.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/27/us/andrea-stewart-cousins-dead.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-7d080bb5-4aea-5a69-a7f3-b78fbe81d105/job-1795808654516/article-7d080bb5-4aea-5a69-a7f3-b78fbe81d105-job-1795808654516.mp3', '--title', 'Andrea Stewart-Cousins, New York\u2019s First Female Senate Majority Leader, Dies', '--rights-confirmed']' returned non-zero exit statu"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/27/us/politics/trump-congressional-investigations-contractors.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/27/us/politics/trump-congressional-investigations-contractors.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-3b86a49a-acac-575a-a61b-7d749420fbb6/job-1795794494119/article-3b86a49a-acac-575a-a61b-7d749420fbb6-job-1795794494119.mp3', '--title', 'In Democrats vs. Trump, the Loser May Be Federal Contractors', '--rights-confirmed']' returned non-zer"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/27/business/influencers-black-friday-deals-holiday-shopping.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/27/business/influencers-black-friday-deals-holiday-shopping.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-e1d39475-df87-5e45-b901-6fedf09a776d/job-1795793362061/article-e1d39475-df87-5e45-b901-6fedf09a776d-job-1795793362061.mp3', '--title', 'Black Friday Deals and Holiday Sales Are Big Money for Influencers', '--rights-confirmed']' returned non"
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/27/us/politics/2028-presidential-race-questions.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/27/us/politics/2028-presidential-race-questions.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-aa4c814c-2a0e-57db-8ab9-87b2c25f56cb/job-1795790002614/article-aa4c814c-2a0e-57db-8ab9-87b2c25f56cb-job-1795790002614.mp3', '--title', 'Five Big Questions for the 2028 Presidential Race', '--rights-confirmed']' returned non-zero exit status 1."
-    },
-    {
-      "url": "https://www.nytimes.com/2026/11/26/opinion/johnny-depp-ebenezer-david-ellison.html",
+      "url": "https://www.nytimes.com/2026/11/27/us/politics/planning-board-trump-construction-meeting.html",
       "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/25/upshot/gen-z-elder-care.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/25/upshot/gen-z-elder-care.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-404e927b-7fae-5def-a85f-459b3045555a/job-1795785838662/article-404e927b-7fae-5def-a85f-459b3045555a-job-1795785838662.mp3', '--title', 'Elder Care Is Unequally Shared. But Not Among Gen Z.', '--rights-confirmed']' returned non-zero exit status 1."
+      "url": "https://www.nytimes.com/2026/11/27/sports/anita-defrantz-dead.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/27/business/inflation-consumer-spending-trade-offs-holidays.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/27/business/inflation-consumer-spending-trade-offs-holidays.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-5963f82d-9bca-5069-b492-5e5b61bb9cb3/job-1795773762940/article-5963f82d-9bca-5069-b492-5e5b61bb9cb3-job-1795773762940.mp3', '--title', 'As Prices Rise, Americans Are Making Trade-Offs Rather Than Cutting Back', '--rights-confirmed']' return"
+      "url": "https://www.nytimes.com/2026/11/27/us/politics/2028-presidential-race-questions.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     },
     {
-      "url": "https://www.nytimes.com/2026/11/27/us/supreme-court-rulings-midterms-voting.html",
-      "error": "Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/observatorio-widget/observatorio-widget/scripts/transcribe_authorized_audio.py', '--article-url', 'https://www.nytimes.com/2026/11/27/us/supreme-court-rulings-midterms-voting.html', '--audio-url', 'https://static.nytimes.com/narrated-articles/synthetic/article-7d995cf4-455d-5294-bd28-2480f538c15d/job-1795813731327/article-7d995cf4-455d-5294-bd28-2480f538c15d-job-1795813731327.mp3', '--title', 'Supreme Court Rulings Cheered by Republicans Wound Up Hurting Them', '--rights-confirmed']' returned non-zero exit statu"
+      "url": "https://www.nytimes.com/2026/11/27/business/influencers-black-friday-deals-holiday-shopping.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/27/world/europe/russia-ai-journey-conference.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/27/us/andrea-stewart-cousins-dead.html",
+      "error": "Audio source discovery failed: Publisher HTML request returned HTTP 403 Forbidden; URL host: www.nytimes.com"
     }
   ]
 }
